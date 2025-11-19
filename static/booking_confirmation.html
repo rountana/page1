@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation - Travel Booking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-blue-600 text-white shadow-lg">
+            <div class="container mx-auto px-4 py-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-3xl font-bold">Travel Booking</h1>
+                        <p class="text-blue-100 mt-1">Booking Confirmation</p>
+                    </div>
+                    <a href="/" class="text-blue-100 hover:text-white underline">New Search</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="container mx-auto px-4 py-12 text-center">
+            <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+            <p class="mt-4 text-gray-600">Loading booking details...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error" class="hidden container mx-auto px-4 py-8">
+            <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg">
+                <p id="errorMessage"></p>
+                <a href="/" class="text-red-800 underline mt-2 inline-block">Return to search</a>
+            </div>
+        </div>
+
+        <!-- Booking Details -->
+        <div id="bookingDetails" class="hidden container mx-auto px-4 py-8">
+            <!-- Booking Summary -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Booking Summary</h2>
+                    <span id="bookingStatus" class="px-4 py-2 rounded-full text-sm font-semibold"></span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-4">Hotel Information</h3>
+                        <p id="hotelName" class="text-xl font-bold text-gray-800 mb-2"></p>
+                        <p id="hotelAddress" class="text-gray-600"></p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700 mb-4">Booking Details</h3>
+                        <div class="space-y-2 text-gray-700">
+                            <p><span class="font-medium">Booking ID:</span> <span id="bookingId" class="font-mono text-sm"></span></p>
+                            <p><span class="font-medium">Check-in:</span> <span id="checkIn"></span></p>
+                            <p><span class="font-medium">Check-out:</span> <span id="checkOut"></span></p>
+                            <p><span class="font-medium">Travelers:</span> <span id="travelers"></span></p>
+                            <p id="roomTypeInfo" class="hidden"><span class="font-medium">Room Type:</span> <span id="roomType"></span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-6 pt-6 border-t border-gray-200">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-semibold text-gray-700">Total Amount:</span>
+                        <span id="totalPrice" class="text-3xl font-bold text-blue-600"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guest Information -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">Guest Information</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                    <div>
+                        <p class="text-sm text-gray-600">Name</p>
+                        <p id="guestName" class="font-medium"></p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-600">Email</p>
+                        <p id="guestEmail" class="font-medium"></p>
+                    </div>
+                    <div id="guestPhoneContainer" class="hidden">
+                        <p class="text-sm text-gray-600">Phone</p>
+                        <p id="guestPhone" class="font-medium"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment Section -->
+            <div id="paymentSection" class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">Complete Payment</h3>
+                <p class="text-gray-600 mb-6">Click the button below to complete your booking. This is a simulation - no actual payment will be processed.</p>
+                
+                <button 
+                    id="payBtn"
+                    onclick="processPayment()"
+                    class="w-full md:w-auto px-8 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-colors"
+                >
+                    Pay Now
+                </button>
+            </div>
+
+            <!-- Payment Success -->
+            <div id="paymentSuccess" class="hidden bg-green-50 border-2 border-green-500 rounded-lg p-6 mb-8">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3 class="text-2xl font-bold text-green-800">Payment Successful!</h3>
+                </div>
+                <p id="successMessage" class="text-green-700 mb-4"></p>
+                <p id="transactionId" class="text-sm text-green-600 font-mono"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/booking_confirmation.js"></script>
+</body>
+</html>
+

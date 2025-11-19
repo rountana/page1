@@ -1,0 +1,15 @@
+.env
+.cursor
+.venv
+.vscode
+.DS_Store
+.cursorignore
+.cursorignore
+
+data/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

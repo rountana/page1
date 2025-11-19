@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Details - Travel Booking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-blue-600 text-white shadow-lg">
+            <div class="container mx-auto px-4 py-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-3xl font-bold">Travel Booking</h1>
+                        <p class="text-blue-100 mt-1">Hotel Details</p>
+                    </div>
+                    <a href="/" class="text-blue-100 hover:text-white underline">Back to Search</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="container mx-auto px-4 py-12 text-center">
+            <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+            <p class="mt-4 text-gray-600">Loading hotel details...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error" class="hidden container mx-auto px-4 py-8">
+            <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg">
+                <p id="errorMessage"></p>
+                <a href="/" class="text-red-800 underline mt-2 inline-block">Return to search</a>
+            </div>
+        </div>
+
+        <!-- Hotel Details -->
+        <div id="hotelDetails" class="hidden container mx-auto px-4 py-8">
+            <!-- Hotel Header -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                <div id="hotelImages" class="grid grid-cols-1 md:grid-cols-3 gap-2"></div>
+                <div class="p-6">
+                    <h2 id="hotelName" class="text-3xl font-bold text-gray-800 mb-2"></h2>
+                    <p id="hotelAddress" class="text-gray-600 mb-4"></p>
+                    <div id="hotelRating" class="mb-4"></div>
+                    <p id="hotelDescription" class="text-gray-700 mb-4"></p>
+                    <div class="flex items-center justify-between pt-4 border-t border-gray-200">
+                        <div>
+                            <p class="text-sm text-gray-600">Price per night</p>
+                            <p id="dailyPrice" class="text-2xl font-bold text-blue-600"></p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-600">Total Price</p>
+                            <p id="totalPrice" class="text-2xl font-bold text-blue-600"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rooms Section -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Available Rooms</h3>
+                <div id="roomsList" class="space-y-6"></div>
+            </div>
+
+            <!-- Facilities Section -->
+            <div id="facilitiesSection" class="hidden bg-white rounded-lg shadow-md p-6 mb-8">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Hotel Facilities</h3>
+                <div id="facilitiesList" class="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Book This Hotel</h3>
+                <form id="bookingForm" class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="checkIn" class="block text-sm font-medium text-gray-700 mb-2">Check-in Date</label>
+                            <input 
+                                type="date" 
+                                id="checkIn" 
+                                name="checkIn" 
+                                required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                        <div>
+                            <label for="checkOut" class="block text-sm font-medium text-gray-700 mb-2">Check-out Date</label>
+                            <input 
+                                type="date" 
+                                id="checkOut" 
+                                name="checkOut" 
+                                required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                    </div>
+                    <div>
+                        <label for="travelers" class="block text-sm font-medium text-gray-700 mb-2">Number of Travelers</label>
+                        <input 
+                            type="number" 
+                            id="travelers" 
+                            name="travelers" 
+                            min="1" 
+                            max="10" 
+                            value="1"
+                            required
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                    </div>
+                    <div>
+                        <label for="roomType" class="block text-sm font-medium text-gray-700 mb-2">Room Type</label>
+                        <select 
+                            id="roomType" 
+                            name="roomType"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                            <option value="">Select a room type</option>
+                        </select>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                            <input 
+                                type="text" 
+                                id="firstName" 
+                                name="firstName" 
+                                required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                        <div>
+                            <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                            <input 
+                                type="text" 
+                                id="lastName" 
+                                name="lastName" 
+                                required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone (Optional)</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            >
+                        </div>
+                    </div>
+                    <button 
+                        type="submit"
+                        id="bookBtn"
+                        class="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+                    >
+                        Book Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/hotel_details.js"></script>
+</body>
+</html>
+
