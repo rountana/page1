@@ -206,6 +206,8 @@ class AmadeusService:
         1. Fetch hotels in city using Hotel List API (cached)
         2. Fetch offers for each hotel using Hotel Search API
         
+        Note: Ratings will be fetched from Google Places API asynchronously by the frontend.
+        
         Args:
             city_code: IATA city code (e.g., "NYC", "PAR")
             check_in: Check-in date
@@ -238,26 +240,25 @@ class AmadeusService:
             print(f"Fetching offers for {len(hotel_ids)} hotels...")
             hotel_offers = await self._fetch_hotel_offers(hotel_ids, check_in, check_out, adults)
             print(f"found {len(hotel_offers)} offers")
+            
             # Step 3: Combine hotel list data with offers
+            # Only include hotels that have offers available
             hotels = []
             for hotel_info in hotels_list:
                 hotel_id = hotel_info["hotel_id"]
                 
-                # If we have offers for this hotel, use that data
+                # Only build HotelDetails if we have offers for this hotel
                 if hotel_id in hotel_offers:
                     hotel = self._parse_hotel_data(
                         hotel_offers[hotel_id], 
                         check_in, 
                         check_out, 
-                        nights
+                        nights,
+                        hotel_list_info=hotel_info  # Pass hotel list data for address/geoCode
                     )
                     if hotel:
                         hotels.append(hotel)
-                else:
-                    # If no offers, create basic hotel entry without pricing
-                    hotel = self._parse_hotel_from_list(hotel_info, check_in, check_out, nights)
-                    if hotel:
-                        hotels.append(hotel)
+                # Skip hotels without offers - continue to next hotel
             
             print(f"Returning {len(hotels)} hotels with offers")
             return hotels
@@ -265,33 +266,50 @@ class AmadeusService:
         except Exception as e:
             raise Exception(f"Error searching hotels: {str(e)}")
     
-    def _parse_hotel_data(self, hotel_data: Dict[str, Any], check_in: date, check_out: date, nights: int) -> Optional[Dict[str, Any]]:
-        """Parse Amadeus hotel data into our format"""
+    def _parse_hotel_data(
+        self, 
+        hotel_data: Dict[str, Any], 
+        check_in: date, 
+        check_out: date, 
+        nights: int,
+        hotel_list_info: Optional[Dict[str, Any]] = None
+    ) -> Optional[Dict[str, Any]]:
+        """Parse Amadeus hotel data into our format
+        
+        Args:
+            hotel_data: Hotel data from offers API
+            check_in: Check-in date
+            check_out: Check-out date
+            nights: Number of nights
+            hotel_list_info: Optional hotel info from hotel list API (for address/geoCode)
+        """
         try:
-            hotel_info = hotel_data.get("hotel", {})
-            hotel_id = hotel_info.get("hotelId", "")
-            name = hotel_info.get("name", "Unknown Hotel")
+            hotel_offers_info = hotel_data.get("hotel", {})
+            hotel_id = hotel_offers_info.get("hotelId", "")
+            name = hotel_offers_info.get("name", "Unknown Hotel")
             
             # Get images
             images = []
-            if "media" in hotel_info:
-                for media in hotel_info["media"]:
+            if "media" in hotel_offers_info:
+                for media in hotel_offers_info["media"]:
                     if media.get("category") == "EXTERIOR" or media.get("category") == "ROOM":
                         images.append({
                             "url": media.get("uri", ""),
                             "category": media.get("category", "")
                         })
             
-            # Get address
+            # Get address - from hotel_list_info only (offers API /v3/shopping/hotel-offers doesn't include address)
             address = ""
-            if "address" in hotel_info:
-                addr = hotel_info["address"]
-                address_parts = [
-                    addr.get("lines", []),
-                    addr.get("cityName", ""),
-                    addr.get("countryCode", "")
-                ]
-                address = ", ".join(filter(None, [item for sublist in address_parts for item in (sublist if isinstance(sublist, list) else [sublist])]))
+            if hotel_list_info and "address" in hotel_list_info and hotel_list_info["address"]:
+                # Use address from hotel list API (only source)
+                addr = hotel_list_info["address"]
+                if isinstance(addr, dict):
+                    address_parts = [
+                        addr.get("lines", []),
+                        addr.get("cityName", ""),
+                        addr.get("countryCode", "")
+                    ]
+                    address = ", ".join(filter(None, [item for sublist in address_parts for item in (sublist if isinstance(sublist, list) else [sublist])]))
             
             # Get price from offers
             daily_price = None
@@ -312,6 +330,30 @@ class AmadeusService:
                 daily_price = 100.0  # Default fallback
                 total_price = daily_price * nights
             
+            # Use rating from hotel_offers_info (from Amadeus offers)
+            # Google Places rating will be added asynchronously via frontend
+            rating = hotel_offers_info.get("rating", None)
+            
+            # Extract geolocation - PRIMARY: from hotel_list_info, FALLBACK: from hotel_offers_info (offers API)
+            latitude = None
+            longitude = None
+            
+            if hotel_list_info and "geo_code" in hotel_list_info and hotel_list_info["geo_code"]:
+                # Use geoCode from hotel list API (primary source)
+                geo_code = hotel_list_info["geo_code"]
+                if isinstance(geo_code, dict) and geo_code:
+                    latitude = geo_code.get("latitude")
+                    longitude = geo_code.get("longitude")
+            
+            # Fallback to geoCode from offers API if not available from hotel list
+            if (latitude is None or longitude is None) and hotel_offers_info:
+                geo_code = hotel_offers_info.get("geoCode")
+                if geo_code and isinstance(geo_code, dict):
+                    if latitude is None:
+                        latitude = geo_code.get("latitude")
+                    if longitude is None:
+                        longitude = geo_code.get("longitude")
+            
             return {
                 "hotel_id": hotel_id,
                 "name": name,
@@ -320,7 +362,9 @@ class AmadeusService:
                 "daily_price": daily_price,
                 "total_price": total_price,
                 "currency": currency,
-                "rating": hotel_info.get("rating", None),
+                "rating": rating,  # From Amadeus, will be supplemented by Google Places
+                "latitude": latitude,
+                "longitude": longitude,
                 "raw_data": hotel_data  # Store raw data for details page
             }
         except Exception as e:
@@ -496,11 +540,22 @@ class AmadeusService:
             currency = price_info.get("currency", "USD")
             daily_price = total_price  # This would need check-in/out dates to calculate properly
         
+        # Extract geolocation
+        geo_code = hotel_info.get("geoCode", {})
+        latitude = None
+        longitude = None
+        
+        if geo_code:
+            latitude = geo_code.get("latitude")
+            longitude = geo_code.get("longitude")
+        
         return {
             "hotel_id": hotel_id,
             "name": name,
             "description": description,
             "address": address,
+            "latitude": latitude,
+            "longitude": longitude,
             "images": images,
             "rooms": rooms,
             "facilities": list(facilities),

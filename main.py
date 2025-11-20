@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, JSONResponse
@@ -10,6 +10,7 @@ from models.hotel import HotelSearchRequest, HotelSearchResponse, HotelDetails
 from models.booking import BookingRequest, BookingResponse, PaymentRequest, PaymentResponse
 from services.amadeus_service import AmadeusService
 from services.booking_service import BookingService
+from services.google_places_service import GooglePlacesService
 
 app = FastAPI(title="Travel Booking API")
 
@@ -30,6 +31,7 @@ if os.path.exists(static_dir):
 # Initialize services
 amadeus_service = AmadeusService()
 booking_service = BookingService()
+google_places_service = GooglePlacesService()
 
 
 @app.get("/")
@@ -76,11 +78,11 @@ async def search_hotels(request: HotelSearchRequest):
             adults=request.travelers
         )
 
-        # import json
-        # print("================================================")
-        # print("hotels_data")
-        # print("================================================")
-        # print(json.dumps(hotels_data, indent=4))
+        import json
+        print("================================================")
+        print("hotels_data (first 3 items)")
+        print("================================================")
+        print(json.dumps(hotels_data[:3], indent=4))
         # Convert to response model
         from models.hotel import HotelSummary, HotelImage, HotelPrice
         
@@ -99,7 +101,9 @@ async def search_hotels(request: HotelSearchRequest):
                 images=images,
                 price=price,
                 address=hotel_data.get("address"),
-                rating=hotel_data.get("rating")
+                rating=hotel_data.get("rating"),
+                latitude=hotel_data.get("latitude"),
+                longitude=hotel_data.get("longitude")
             )
             hotel_summaries.append(hotel_summary)
         
@@ -175,6 +179,68 @@ async def get_hotel_details(
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting hotel details: {str(e)}")
+
+
+@app.post("/api/hotels/google-places")
+async def get_google_places_data(
+    hotel_name: str = Body(...),
+    address: str = Body(...),
+    latitude: Optional[float] = Body(None),
+    longitude: Optional[float] = Body(None)
+):
+    """
+    Get Google Places reviews and images for a hotel
+    
+    Args:
+        hotel_name: Hotel name from Amadeus
+        address: Hotel address from Amadeus
+        latitude: Latitude from Amadeus geoCode (optional)
+        longitude: Longitude from Amadeus geoCode (optional)
+    
+    Returns:
+        Dictionary with reviews, photo_references, and place_id
+    """
+    try:
+        place_data = await google_places_service.get_hotel_reviews_and_images(
+            hotel_name=hotel_name,
+            address=address,
+            latitude=latitude,
+            longitude=longitude
+        )
+        
+        if not place_data:
+            return JSONResponse(
+                status_code=404,
+                content={"message": "Hotel not found in Google Places"}
+            )
+        
+        # Convert photo references to URLs
+        photos = []
+        for photo_ref in place_data.get("photo_references", []):
+            photo_url = await google_places_service.get_photo_url(
+                photo_ref.get("photo_reference"),
+                max_width=800,
+                max_height=600,
+                photo_name=photo_ref.get("name")  # Pass photo name for new API
+            )
+            if photo_url:
+                photos.append({
+                    "url": photo_url,
+                    "width": photo_ref.get("widthPx") or photo_ref.get("width"),
+                    "height": photo_ref.get("heightPx") or photo_ref.get("height"),
+                    "attributions": photo_ref.get("authorAttributions") or photo_ref.get("html_attributions", [])
+                })
+        
+        return {
+            "place_id": place_data.get("place_id"),
+            "reviews": place_data.get("reviews", []),
+            "photos": photos,
+            "google_rating": place_data.get("rating"),
+            "google_ratings_total": place_data.get("user_ratings_total")
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error fetching Google Places data: {str(e)}")
 
 
 @app.post("/api/bookings", response_model=BookingResponse)

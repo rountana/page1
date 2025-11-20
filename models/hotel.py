@@ -28,6 +28,8 @@ class HotelSummary(BaseModel):
     price: HotelPrice
     address: Optional[str] = None
     rating: Optional[float] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
 
 
 class HotelSearchResponse(BaseModel):

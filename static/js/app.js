@@ -1,6 +1,9 @@
 // API Base URL
 const API_BASE = '/api';
 
+// Storage key for consolidated Google Places data
+const GOOGLE_PLACES_STORAGE_KEY = 'googlePlacesData';
+
 // Set minimum date to today
 document.addEventListener('DOMContentLoaded', function() {
     const today = new Date().toISOString().split('T')[0];
@@ -62,7 +65,10 @@ async function searchHotels(destination, checkIn, checkOut, travelers) {
         // Write hotels data to JSON file for troubleshooting
         downloadHotelsJSON(data.hotels);
         
-        
+        data.hotels.forEach(hotel => {
+            loadGooglePlacesForHotel(hotel);
+        });
+
     } catch (error) {
         showError(error.message);
     } finally {
@@ -84,20 +90,25 @@ function displayHotels(hotels) {
     hotels.forEach(hotel => {
         const hotelCard = createHotelCard(hotel);
         hotelsList.appendChild(hotelCard);
+        
+        // Asynchronously fetch Google Places data to update hotel card
+        loadGooglePlacesForHotel(hotel);
     });
 }
 
 function createHotelCard(hotel) {
     const card = document.createElement('div');
     card.className = 'hotel-card bg-white rounded-lg shadow-md overflow-hidden cursor-pointer';
+    card.setAttribute('data-hotel-id', hotel.hotel_id);
     
-    // Hotel image
+    // Hotel image - use placeholder initially, will be updated by Google Places if available
     const imageUrl = hotel.images && hotel.images.length > 0 
         ? hotel.images[0].url 
         : 'https://via.placeholder.com/400x250?text=No+Image';
     
     const imageHtml = `
-        <img src="${imageUrl}" alt="${hotel.name}" class="w-full h-48 object-cover" 
+        <img src="${imageUrl}" alt="${hotel.name}" class="w-full h-48 object-cover hotel-card-image" 
+             data-hotel-id="${hotel.hotel_id}"
              onerror="this.src='https://via.placeholder.com/400x250?text=No+Image'">
     `;
     
@@ -173,33 +184,218 @@ function hideAll() {
     document.getElementById('error').classList.add('hidden');
 }
 
+/**
+ * Download hotels data as JSON file
+ * @param {Array} hotels - Array of hotel objects to download
+ */
 function downloadHotelsJSON(hotels) {
-    // Create a JSON string with pretty formatting
-    const jsonString = JSON.stringify(hotels, null, 2);
-    
-    // Create a Blob with the JSON data
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    
-    // Create a download link
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    
-    // Generate filename with timestamp
-    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
-    link.download = `hotels-data-${timestamp}.json`;
-    
-    // Trigger download
-    document.body.appendChild(link);
-    link.click();
-    
-    // Clean up
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-    
-    console.log(`Downloaded hotels data: ${hotels.length} hotels`);
+    try {
+        // Validate input
+        if (!hotels || !Array.isArray(hotels) || hotels.length === 0) {
+            console.log('No hotels data to download');
+            return;
+        }
+        
+        // Create data structure with metadata
+        const data = {
+            total_hotels: hotels.length,
+            generated_at: new Date().toISOString(),
+            hotels: hotels
+        };
+        
+        // Generate filename with timestamp
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+        const filename = `hotels-data-${timestamp}.json`;
+        
+        // Write to JSON file using shared helper
+        writeJSONFile(data, filename);
+        
+        console.log(`Downloaded hotels data: ${hotels.length} hotels`);
+        
+    } catch (error) {
+        console.error('Error downloading hotels data:', error);
+    }
 }
 
-// Make viewHotelDetails available globally
+/**
+ * Asynchronously load Google Places data for a hotel and update the hotel card image
+ * @param {Object} hotel - Hotel object with name, address, and optional latitude/longitude
+ */
+async function loadGooglePlacesForHotel(hotel) {
+    try {
+        // Check if we have the required data
+        if (!hotel.name || !hotel.address) {
+            console.log(`Insufficient data for Google Places lookup: ${hotel.name || 'Unknown'}`);
+            return;
+        }
+        
+        const requestBody = {
+            hotel_name: hotel.name,
+            address: hotel.address,
+            latitude: hotel.latitude || null,
+            longitude: hotel.longitude || null
+        };
+        
+        const response = await fetch(`${API_BASE}/hotels/google-places`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(requestBody)
+        });
+        
+        if (!response.ok) {
+            // Silently fail - Google Places is optional, placeholder image will remain
+            console.log(`Google Places data not available for hotel: ${hotel.name}`);
+            return;
+        }
+        
+        const googleData = await response.json();
+        
+        // Store Google Places data for this hotel
+        storeGooglePlacesData(hotel.hotel_id, hotel.name, googleData);
+        
+        // Update hotel card image if photos are available
+        if (googleData.photos && googleData.photos.length > 0) {
+            updateHotelCardImage(hotel.hotel_id, googleData.photos[0].url);
+        } else {
+            // No image found, ensure placeholder is shown
+            console.log(`No Google Places images found for hotel: ${hotel.name}`);
+        }
+        
+    } catch (error) {
+        console.error(`Error loading Google Places data for hotel ${hotel.name}:`, error);
+        // Silently fail - Google Places is optional
+    }
+}
+
+/**
+ * Update the image of a hotel card when Google Places data is received
+ * @param {string} hotelId - Hotel ID to identify the card
+ * @param {string} imageUrl - URL of the image to display
+ */
+function updateHotelCardImage(hotelId, imageUrl) {
+    // Find the hotel card image element
+    const imageElement = document.querySelector(`img.hotel-card-image[data-hotel-id="${hotelId}"]`);
+    
+    if (imageElement && imageUrl) {
+        // Update the image source
+        imageElement.src = imageUrl;
+        
+        // Handle image load errors - fallback to placeholder
+        imageElement.onerror = function() {
+            this.src = 'https://via.placeholder.com/400x250?text=No+Image';
+        };
+        
+        console.log(`Updated image for hotel card: ${hotelId}`);
+    }
+}
+
+/**
+ * Store Google Places data in sessionStorage for consolidated retrieval
+ * @param {string} hotelId - Hotel ID
+ * @param {string} hotelName - Hotel name
+ * @param {Object} googleData - Google Places data
+ */
+function storeGooglePlacesData(hotelId, hotelName, googleData) {
+    try {
+        // Get existing consolidated data from sessionStorage
+        const existingData = sessionStorage.getItem(GOOGLE_PLACES_STORAGE_KEY);
+        let consolidatedData = existingData ? JSON.parse(existingData) : {};
+        
+        // Add this hotel's data
+        consolidatedData[hotelId] = {
+            hotel_id: hotelId,
+            hotel_name: hotelName,
+            google_places_data: googleData,
+            timestamp: new Date().toISOString()
+        };
+        
+        // Save back to sessionStorage
+        sessionStorage.setItem(GOOGLE_PLACES_STORAGE_KEY, JSON.stringify(consolidatedData));
+        
+        console.log(`Stored Google Places data for hotel: ${hotelName} (${hotelId})`);
+        console.log(`Total hotels with Google Places data: ${Object.keys(consolidatedData).length}`);
+        
+    } catch (error) {
+        console.error('Error storing Google Places data:', error);
+    }
+}
+
+/**
+ * Download consolidated Google Places data as JSON file
+ */
+function downloadConsolidatedGooglePlacesJSON() {
+    try {
+        // Get all consolidated data from sessionStorage
+        const existingData = sessionStorage.getItem(GOOGLE_PLACES_STORAGE_KEY);
+        
+        if (!existingData) {
+            console.log('No Google Places data to download');
+            return;
+        }
+        
+        const consolidatedData = JSON.parse(existingData);
+        
+        // Convert object to array for easier consumption
+        const dataArray = Object.values(consolidatedData);
+        
+        // Create final consolidated structure
+        const finalData = {
+            total_hotels: dataArray.length,
+            generated_at: new Date().toISOString(),
+            hotels: dataArray
+        };
+        
+        // Write to JSON file
+        writeJSONFile(finalData, `google-places-consolidated-${new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5)}.json`);
+        
+        console.log(`Downloaded consolidated Google Places data for ${dataArray.length} hotels`);
+        
+    } catch (error) {
+        console.error('Error downloading consolidated Google Places data:', error);
+    }
+}
+
+/**
+ * Helper function to write JSON data to a downloadable file
+ * @param {Object} data - Data to write
+ * @param {string} filename - Filename for the download
+ */
+function writeJSONFile(data, filename) {
+    try {
+        // Create a JSON string with pretty formatting
+        const jsonString = JSON.stringify(data, null, 2);
+        
+        // Create a Blob with the JSON data and proper MIME type
+        const blob = new Blob([jsonString], { 
+            type: 'application/json;charset=utf-8' 
+        });
+        
+        // Create a download link
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename.endsWith('.json') ? filename : `${filename}.json`;
+        link.style.display = 'none';
+        
+        // Trigger download
+        document.body.appendChild(link);
+        link.click();
+        
+        // Clean up after a short delay
+        setTimeout(() => {
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }, 100);
+        
+    } catch (error) {
+        console.error('Error writing JSON file:', error);
+        throw error;
+    }
+}
+
+// Make functions available globally
 window.viewHotelDetails = viewHotelDetails;
+window.downloadConsolidatedGooglePlacesJSON = downloadConsolidatedGooglePlacesJSON;
 

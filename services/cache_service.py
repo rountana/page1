@@ -11,6 +11,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+class MongoDBUnavailableError(Exception):
+    """Raised when MongoDB cache is required but unavailable"""
+    pass
+
+
+class CacheMissError(Exception):
+    """Raised when cache is enabled but data is not found in cache"""
+    pass
+
+
 class AmadeusCacheService:
     """MongoDB-based caching service for Amadeus API responses"""
     
@@ -20,6 +30,7 @@ class AmadeusCacheService:
         "/v1/reference-data/locations/hotels/by-city": 24 * 7,  # 7 days - hotel lists are relatively static
         "/v3/shopping/hotel-offers": 720,  # 
         "/v2/shopping/hotel-offers": 720,  #
+        "/maps/api/place": 24 * 7 * 30,  # Google Places data is relatively static
         "/v1/security/oauth2/token": 1,  # tokens expire
         "default": 720  # 1 month default
     }
@@ -45,7 +56,7 @@ class AmadeusCacheService:
             self._connect()
     
     def _connect(self):
-        """Connect to MongoDB with graceful fallback"""
+        """Connect to MongoDB - raises error if connection fails"""
         try:
             mongo_url = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
             db_name = os.getenv("MONGODB_DB_NAME", "amadeus_cache")
@@ -69,13 +80,21 @@ class AmadeusCacheService:
             print("MongoDB cache connected successfully")
             
         except (ConnectionFailure, ServerSelectionTimeoutError) as e:
-            print(f"MongoDB cache unavailable, falling back to direct API calls: {e}")
-            self.enabled = False
-            self.client = None
+            error_msg = (
+                f"MongoDB cache is unavailable. Please start MongoDB before running the application.\n"
+                f"Connection error: {e}\n"
+                f"To start MongoDB, run: ./start-mogodb.sh"
+            )
+            print(error_msg)
+            raise MongoDBUnavailableError(error_msg) from e
         except Exception as e:
-            print(f"Error connecting to MongoDB cache: {e}")
-            self.enabled = False
-            self.client = None
+            error_msg = (
+                f"MongoDB cache connection failed. Please start MongoDB before running the application.\n"
+                f"Error: {e}\n"
+                f"To start MongoDB, run: ./start-mogodb.sh"
+            )
+            print(error_msg)
+            raise MongoDBUnavailableError(error_msg) from e
     
     def _normalize_params(self, params: Optional[Dict[str, Any]]) -> Dict[str, Any]:
         """
@@ -163,8 +182,19 @@ class AmadeusCacheService:
             
         Returns:
             Cached response data or None if not found/expired
+            
+        Raises:
+            MongoDBUnavailableError: If MongoDB is not available
         """
-        if not self.enabled or self.collection is None:
+        # Check if cache is required but unavailable
+        if self.enabled and self.collection is None:
+            raise MongoDBUnavailableError(
+                "MongoDB cache is required but unavailable. Please start MongoDB before running the application.\n"
+                "To start MongoDB, run: ./start-mogodb.sh"
+            )
+        
+        # If cache is disabled, return None (this shouldn't happen if enabled=True, but handle gracefully)
+        if not self.enabled:
             return None
         
         try:
@@ -179,6 +209,12 @@ class AmadeusCacheService:
             )
             
             if not cached_doc:
+                # Log cache miss for Google Places endpoints
+                if "/maps/api/place" in endpoint:
+                    place_id = params.get("place_id", "unknown") if params else "unknown"
+                    print(f"Cache MISS for Google Places endpoint: {endpoint} (place_id: {place_id})")
+                else:
+                    print(f"Cache MISS for endpoint: {endpoint}")
                 return None
             
             # Check if expired (TTL index should handle this, but double-check)
@@ -190,15 +226,35 @@ class AmadeusCacheService:
                     self._delete_cache_doc,
                     cache_key
                 )
+                # Log expired cache for Google Places
+                if "/maps/api/place" in endpoint:
+                    place_id = params.get("place_id", "unknown") if params else "unknown"
+                    print(f"Cache EXPIRED for Google Places endpoint: {endpoint} (place_id: {place_id})")
                 return None
             
             # Return cached response
-            print(f"Cache HIT for endpoint: {endpoint}")
+            if "/maps/api/place" in endpoint:
+                place_id = params.get("place_id", "unknown") if params else "unknown"
+                print(f"Cache HIT for Google Places endpoint: {endpoint} (place_id: {place_id})")
+            else:
+                print(f"Cache HIT for endpoint: {endpoint}")
             return cached_doc.get("response_data")
             
+        except (ConnectionFailure, ServerSelectionTimeoutError) as e:
+            # MongoDB connection error - raise exception
+            error_msg = (
+                f"MongoDB cache connection lost during operation. Please ensure MongoDB is running.\n"
+                f"Connection error: {e}\n"
+                f"To start MongoDB, run: ./start-mogodb.sh"
+            )
+            raise MongoDBUnavailableError(error_msg) from e
         except Exception as e:
-            print(f"Error retrieving from cache: {e}")
-            # Graceful fallback - return None to proceed with API call
+            # Re-raise MongoDBUnavailableError if that's what was raised
+            if isinstance(e, MongoDBUnavailableError):
+                raise
+            # For other non-connection errors, log and return None to allow API call
+            # This handles cases like query errors, but MongoDB is still available
+            print(f"Error retrieving from cache (non-connection error): {e}")
             return None
     
     async def set(self, endpoint: str, params: Optional[Dict[str, Any]], response_data: Dict[str, Any]):
@@ -209,8 +265,19 @@ class AmadeusCacheService:
             endpoint: API endpoint path
             params: Request parameters
             response_data: API response data to cache
+            
+        Raises:
+            MongoDBUnavailableError: If MongoDB is not available
         """
-        if not self.enabled or self.collection is None:
+        # Check if cache is required but unavailable
+        if self.enabled and self.collection is None:
+            raise MongoDBUnavailableError(
+                "MongoDB cache is required but unavailable. Please start MongoDB before running the application.\n"
+                "To start MongoDB, run: ./start-mogodb.sh"
+            )
+        
+        # If cache is disabled, silently return (this shouldn't happen if enabled=True)
+        if not self.enabled:
             return
         
         try:
@@ -238,11 +305,30 @@ class AmadeusCacheService:
                 cache_doc
             )
             
-            print(f"Cache STORED for endpoint: {endpoint} (TTL: {ttl_hours}h)")
+            # Log cache write with more detail for Google Places
+            if "/maps/api/place" in endpoint:
+                place_id = params.get("place_id", "unknown") if params else "unknown"
+                print(f"Cache STORED for Google Places endpoint: {endpoint} (place_id: {place_id}, TTL: {ttl_hours}h)")
+            else:
+                print(f"Cache STORED for endpoint: {endpoint} (TTL: {ttl_hours}h)")
             
+        except (ConnectionFailure, ServerSelectionTimeoutError) as e:
+            # MongoDB connection error - raise exception
+            error_msg = (
+                f"MongoDB cache connection lost during operation. Please ensure MongoDB is running.\n"
+                f"Connection error: {e}\n"
+                f"To start MongoDB, run: ./start-mogodb.sh"
+            )
+            raise MongoDBUnavailableError(error_msg) from e
         except Exception as e:
-            print(f"Error storing in cache: {e}")
-            # Graceful fallback - continue without caching
+            # Re-raise MongoDBUnavailableError if that's what was raised
+            if isinstance(e, MongoDBUnavailableError):
+                raise
+            # For other non-connection errors, log but don't abort - allow operation to continue
+            # This handles cases like write errors, validation errors, etc. where MongoDB is still available
+            print(f"Warning: Error storing in cache (non-connection error): {e}")
+            print("Continuing without caching - API response will not be cached")
+            # Don't raise - allow the API response to be returned even if caching fails
     
     def is_available(self) -> bool:
         """Check if cache is available and enabled"""
