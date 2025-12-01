@@ -1,0 +1,2065 @@
+{
+    "total_hotels": 29,
+    "generated_at": "2025-11-24T21:07:34.931422",
+    "hotels": [
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "MCNYCWSM",
+          "chainCode": "MC",
+          "dupeId": "700009917",
+          "name": "New York Marriott Downtown",
+          "address": "85 WEST STREET AT ALBANY STREE, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.70975,
+          "longitude": -74.01468,
+          "rating": 4.3,
+          "user_ratings_total": 3151,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJlYpIkBBawokRjyd8kYQpUrc/photos/AWn5SU7aH5jL5GlGeaj1pTh5fUX7YmMt3_Ys2hYVLCrOtWTUL7PFP8Ji_AyeFtjzxDGOIcORrsokHID0CTu2G19Ed0pC6UCDQBtnJP6udJvgHrssBE-i7JqWhmTrYaayYHwyXsbIWZ91CzH8RpeaNQl828YeLjnB3BjP1ZkwimfPFQYtSLqJdbQ9A4WO0ePys5P1_6efCap13i6U6wGoIJUz96h5nci1Q6BPAtvkKB0GCjh5FkwhI_GakvERXFj01GwGDfU3woXiKnr8Ew2VGqStaYiJbUNPreQ3CiWtyPv5iMCiqQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlYpIkBBawokRjyd8kYQpUrc/photos/AWn5SU4K6mRKcQ-Xg2NuGAhwy_X2D3-wqCqFw26YHfQ3x6tOewaMjJrfDBvzAS-D1mYng7C4joEHIuI3_32p4-UOfbQ-mMnQky79HhwEJFF6VCFaQkveDIEoLsId90zivzdkSyqmZoBGjwRWmbRsBmE3GKyxPhKgOBgy2AgWPMb_lyNGVIUqb-Rp5HXfIK4sg_-leJctJ-TyDC8vVbnFoWPcXb31LkIctpM4GbbhFm6YG4pIVkykgMbnOq_nPxBiM5k2NLOfetZYQ1B5CJMe8DTNylxDTZdIv6Mp_H-Evv5qNQ91kg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlYpIkBBawokRjyd8kYQpUrc/photos/AWn5SU5UYPY3Wv1etq6IWAoEsE5KuaKlBBPt8yooRvliAN1m5Hef9UdmPJhutTk97xWF0ptJ1yc57R_NaKJTmkjwKKV0kaidg-el2FqJkcm8cVVmcJekXaFMTpMAa0oBTRjL1dNB80zAzs3ENLeex7HZB1-V0-CwV85SmTJdRvIUxSDFUAKAkqCeac1zEY9RZpvQW5eGr-QM8cZymfFw-uLE5qx-ICB6VMxCruupefcdIqrH17aT38SbomAGKIL0BJb4roCTfKAQBF8-ZpVl5vgEyd1RCYiLvSRemvbjaJBA7s5dnx3o8O9FE_a32O0HQXAfmHZdMm3_EW6I_bf8hIn18u9s2-3BY9ZmVwgPSHZQaQ8QaBRpMnRthgD1z_ISy7xMM3jh-Xm0P60rOm7q_nw_hnHwVrLl4omfoVGysj9UjzYOzQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlYpIkBBawokRjyd8kYQpUrc/photos/AWn5SU4JPanQbCEn0Wu7M8LE747tV0U4zixTgzA4-TLr3Fvkht-0My36eWsEIs4tGr-9luBSnn0TE5zzl8VBkMprMasjpEq1tkdx5GaIYpz9IoJTzKOQiZOWBkavJz_Y4LqRudr1hWWVGrvTzg766LFl7JbrtYStT-vtNrGsrm5LtJWIIcG98-YWG8bwBN-lQzktVLUaEdaryY4SqImQHN691mWexRZGPlTmPapz41ZZuWelNuVqlmBKcKTOQcQsoOsjoQ0IU5kuYkGJMTbty1qnvwK4qpHKe0sQAT-DTtdjCree0Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlYpIkBBawokRjyd8kYQpUrc/photos/AWn5SU6DniIkjMTdsW2Ii7GwJnevAVNTBUTtUec4y8ux1k8zcdkaYrayyEgrvmbbp4ZGw09podfe4pxKRPZNpxgJzL4jXboXlzX4agAm0oCyXcjP3HBEIjKax05CqCDsqKYAR_La_7xlRoQuMBGasyoWPDeJKFq4zyaCQqP-4FiptpAse1qPU9TsXbm5-rErnBPPzQBKRLGf22ZzChnKHA4d1FKmVO_k8lc4YUr1uMmpTvv8JoUZVwxJzAx2JjJxCuFOBZ0V4cGGmCv7RQSX35_mu15UBxoVszfHzm6LAcI9c6HTgQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.01468,
+              40.70975
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "399.00",
+            "total": "495.78",
+            "variations": {
+              "average": {
+                "base": "399.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "399.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": 1,
+                "deadline": "2025-12-21T23:59:00-05:00",
+                "amount": "461.36",
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "guarantee",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCNYCWSM&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Flexible Rate\nDeluxe Room, 2 Double, Mini fridge,\n324sqft/29sqm, Wireless internet, for a fee,",
+            "type": "REG",
+            "typeEstimated": {
+              "bedType": "DOUBLE",
+              "beds": 2,
+              "category": "DELUXE_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYNYCMTC",
+          "chainCode": "CY",
+          "dupeId": "700149692",
+          "name": "Courtyard by Marriott New York Manhattan SoHo",
+          "address": "181 VARICK STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.72758,
+          "longitude": -74.00548,
+          "rating": 4.1,
+          "user_ratings_total": 563,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJT0DdRo1ZwokRkufwSD-TdGM/photos/AWn5SU7T47BzbZwqUz6yGLj2iDkGFOLGdzxAD4w-ASC24vZGy_fHqnxTLBqr-WL8OX6p-eJBH58AyZeqo-Y8dvqvI9iJYklejYp_XAdDmYWKDcEArEIZWY2er_UAG5UiOHvg48rxo9nkIpESxexumOwlEI_Ok4P9oYRdFoG0IU9M3FnFNwPxu186xWZifImWxeS8KRI_oHK2SBT8jeOi6n80v4cMZtv2H-DvGNaYZqdDwaSxbsG7HNYxyn2zJXjdhCmhzEzhW8M9yHNpaFHlPXQeC3UqC1CUVd6r4H5FWHBSyMRr5A/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJT0DdRo1ZwokRkufwSD-TdGM/photos/AWn5SU4UhrCoFKLDkezzJJS72Xq0ErFV0rJJbEACWnz7ZuXFNTBbLEM0y3kj3KnZEIOdHYmqAFUoeCpuYkN9crj6YM7_1-VlK3jtXfQFZ1OR3lLdy7_9KXYMluTVAftpvRDL-aKD5tHT66RU4f7vzvHsyCYhlEZsytRP9Qv1xDqqMY8ZfMVicGDw-Nw5CsrDkdN8eIGdYKXNqqNhcTz8VW13RyitASBlxhy4id0uwukqOX1Eh9CuBC9y-yRWJonIWYdPmLxyymeMh_oP5CcuMO8-cRX1pgU9v7B_R9F_pAEhS4tyFg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJT0DdRo1ZwokRkufwSD-TdGM/photos/AWn5SU48kltpwm2iegGYWxWVkwDrHJXqjKmMAECq1foyH7lhCv5ZP4pD4dZpF2I69Sw7yzOGe6SVGGjhetST3DBnPetxEEPUwWlg63hVYNfs-3weQEWW3RsJPJfXK2ihlIiQdEqvIOIz9nBpVDdr3MZ6l-JCuJrAissyitKJQR20gJn4ffwk99albZcSXJ0y4XtTRgy2mCbYWVSSFIEx1UM27Z3mBq2LqWr7GSRk8X1NdzXggQpnIBykXQd1Rx6D1BtItPOtwxznbh8aV--UXHgD__zuTH-pKkxMmhOfa0pURoWZsw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJT0DdRo1ZwokRkufwSD-TdGM/photos/AWn5SU73uXVGOm_l1v6KnvQ0ez44_dy_A3D_AZnsPCx5jG9E5mC_lOEMo2dLJ01OKY5zBlv0uBih8gkLQ2kp-_D4YFIIHK-krWPnxFDISCfdMbKhueZsBPvw6bRH6XyEm4Gam-vPOP1jNPYIIpMXp4-VKVPH8Tol3DbssB8CnhKrnGgbK8HUMdfNMrGlDYDT4_wQb7GdY3rDpvTajTRe1_mi7jvm9XK_EWBtMFg0XhkyzSf46kEbYhckzMKfTE92y3kUd_M9c3wAXK9yB4dBj2nbJEkZRiHr8-YnQ_pqx8SfjZXbaQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJT0DdRo1ZwokRkufwSD-TdGM/photos/AWn5SU7sCwmljU3LSSiBwJ0RJ_ZZ1g9hiF4eSsrClwu1EtxNyj6NnYftP5ElBFgNObOkAnf2JnwdnL3CJLcfapxDzRazaAs-VPaKLv0_9F9hF7lxP4m6V0K90Oi_DAWz90Ileo7KwcnPY32dp26sBmv3DxJ3NchO3RQ_QhOuTU4V9uCgByduSsbj5zlX-skbncAtJjSArgcmxSATxOc-vwd-XOkTe6gFkG7dn098H4BcEHQUn_K3gZu_uLAwFFAvzTW-lsgXyp_CcAHGnbxeMilBJfF3aiIz8B8YYqh7q20B2B45Vg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.00548,
+              40.72758
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "522.00",
+            "total": "602.50",
+            "variations": {
+              "average": {
+                "base": "522.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "522.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYNYCMTC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, prepay in full, non-refundable\n1 King Bed, 1 King, Mini fridge,\n285sqft/26sqm-315sqft/28sqm, Wireless",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "MCLGABKM",
+          "chainCode": "MC",
+          "dupeId": "700009911",
+          "name": "New York Marriott at the Brooklyn Bridge",
+          "address": "333 ADAMS STREET, BROOKLYN, US",
+          "cityCode": "LGA",
+          "latitude": 40.69384,
+          "longitude": -73.98916,
+          "rating": 4.3,
+          "user_ratings_total": 4401,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJlV9O0UtawokRXyLCJky7XRc/photos/AWn5SU5YyBXVnkuZ98E3Yvds59BcenpRrnCmit2BL2wC7KvNWBg7Ee1mp0jeWJp9D72ldwaHYTOIoxwBugDClf4PZbMmRipBH0JkkVzKMrRzV-IpTPgbh6FmJF-xpenyTu_-Hrhkt9AkdD9hUrRGv7nSH88ufTVlo2QUu7t_MMzU6HTA51lNq63DSf7VkSQFtVmxxktLAqxHEEnfOgZys8II5U1VyafDH6-MMjjxnSUoRWwF9ECM31X6nEjMGOio-KBbXLitZ7TRXjf9GawwqJ8H6MHoUHDCiMsZeVzUUc_QoQCSbA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlV9O0UtawokRXyLCJky7XRc/photos/AWn5SU4OWevJBjrF-M-bkoIBBeWo8HXZTvPmexXl0_QGN3H1TEhyoCyN9Scs_Sbcb9x-4gvTJSelYD_A4ODM_5-QCZjDH5UXroRzml4RfsvIDCX74xasINpqYCMRPRDatTC3CbnUIbDfwwy0gqX8tUZcRoh7MlOqWS5bRYWWiWmk2rMwLBN2x5TbWaPX-S3dSFwrwQYqW5aEurA3VZH2s0KJ5R_4wll2IhjzKqU-D-WnHhzd6KDYNkurfQpwH7_09i_s1Av2CO-aASCLHvyL5wA61g95JqZDUNSAwGJ4fBLJlCy8CA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlV9O0UtawokRXyLCJky7XRc/photos/AWn5SU4tYoJvTsMe5wrr6lY1PPVO590OJY5SejNCBSlhG6P31if1C4wHBL0MaM_A6HlSGmxpAY6NA43wcTuxPfrYJKyHuk5mBP3a2K23g34JVIGgNtj-K5OJP6r53D--2XouWpI2Hff-rCqaaucbUBb13tCWQiH0dgY2YxZJaDY16yjnIkG7Zv4SySYUU9rMou9czW-KUBofB0_VHaqlzNYUg28pblj53Vcyu_UkArcaoXlOE2LVZqs2KlZwY2k9S4pcDTn2GLVBJeLkiBhOPNsAWm3HMxyxTiHdjvVo4xVS9s8BkJmUXU5PAykZw_qaUD2Fzrfv4wEUfDBj9uVNgzl6felIYg_H_o1Jw8BUS5KoXhpuQjzcOlNqXfob7zOJkO2GpgrveVLzvsLGXwrok08rO6YgqG5ZZg7xIUh05aVCr-o/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlV9O0UtawokRXyLCJky7XRc/photos/AWn5SU76erFjFFxAgKT7thT3WRyccHm_5U1sWtLU80EUYDLqdXI7syBuQJ5R8qysi4ykg305Tn8T2aH2DD6zOlPrTWHiFgNu0MMv8chU7YFgQJhdQr0E9--U1N7Qq7t8Jj_vLddgk-KL8JmF0SdbcytASN9Lfo16jmccr6wKVLXsYgd_Q8nMZYA73YkiLBwTusxQDgZpO2Jtl5QiDtnkn-jdQE5cvRrmGnTvwUnaVAbJShAoSbGwRhJ4hJ_WxeUyc0HsmFXRQFp1T-G9Cd8NGLCmBwmvJq7onDKn1Li06YGVSjvwgCP_Edpo6nmLvdQmk3ErAymoj_HLgXFNPFEkfJlILgwNj12DlkqDApLM_cCR5Y9srkiFW5R_dd1-Gx1ScktX6VcqHhgiRTvYjSEegmm45nYUW3v5AotdKpWEhZaelDAEtalqeObxuxK5bAkNP96P/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJlV9O0UtawokRXyLCJky7XRc/photos/AWn5SU5xl_dF_UsRwAnVCNQ0Q__kpPZTeh-KDg3uIo1OUO4hEHlB1lf027_s2-iDaqHh-wvMUZ9SDTbkioA5e6RacYy8offWyOxVILLaqtODt-TRxkQg1bmNRUQnj8mOZSbd6QnSZqWUPLjuOKq1w_Sqox9GzzpCh0nilVfBsQYamF37mGSE5osQ0SNKOpt07RE3rjwHNJn4hvPgB9nALIHQiiN_9rwltvo4kAg6pn-T_JEnhjUp2DmuUWyqkObN7cN5hoiRyr2wpN1_ZABYR52ubz_wlSdEFdLVRvbP26qctCx8wQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98916,
+              40.69384
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "339.15",
+            "total": "427.10",
+            "variations": {
+              "average": {
+                "base": "339.15"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "339.15"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCLGABKM&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nGuest Room King, 1 King, Mini fridge,\n400sqft/36sqm, Wireless internet, for a fee,",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": null,
+              "beds": null,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WHNYC299",
+          "chainCode": "WH",
+          "dupeId": "700038789",
+          "name": "W New York Union Square",
+          "address": "201 PARK AVENUE SOUTH, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.7365,
+          "longitude": -73.98891,
+          "rating": 4.2,
+          "user_ratings_total": 1337,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJpX1_-aFZwokRnSNMK95ppp4/photos/AWn5SU5BMjwzHEuS8gyr5NnY5xb7AJbOH4LVi6Tad8MJx7sKsHSbfc9ZNpGRoGkicS81cpCMKM0exJWPRowe9Roi9Xemr3Bg294LxFnFNHznzuYDCt7ue71_jUDA5KJq5honc8LF6x7qwxncHd2Alnc2SIQCKvI3OXYgMYnWd8TVlV9L4FXk1yKT1usyC-NEGIbuKa4VgREkUS13jxxAH0WnkmML-0QjHuFVq2ht5jJG36TFPthxbmpopfhWASlFRuND7Mcy8Q6i5mkIZCvWoj5-bBZQEo6UGeEu8rw_8L0Cl_gMWA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJpX1_-aFZwokRnSNMK95ppp4/photos/AWn5SU4BNL8J2FR8F6xLHTTCW4j8QigJsc9uxDAzCGpx7QocDLQqiu4kSVa6UpXzv3bZNJyrx_sLbhGSDPBz7dxrV2oY1B40Dydua91XJ3ZlBp_j5dZSbI3eZ4ez9qjft_WEzIAIaYmbkUmFmmNymoewn8scO9c5IkSWAGu1O8ANnt49_lYZBeCIqgq-gCQHRujCawR9xWjyAzL317LpuSXdz4f2B670bTiluyhI4Vl9ooKNDetRsjr1lCUOI0fFVjUFrWVXYIkFj5Wf_H7oFkULteRWe2FrgkJRhbfFX1Kpmaeobg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJpX1_-aFZwokRnSNMK95ppp4/photos/AWn5SU4hIr-5H84oZolNYVfp8z_DiHd-d45LxJS6OWiFtzi_mg0v_m5Ign-NyjOGDjaP1GFuIgHfQkSbw3ZI-U3PccPsb4brBMDe7eCNjDwokyzatcYSgi8CJjHESi16fXvAM4ZNoXVmzx7o0bxUurlY9jcXh4gH7O8aBBJheR9msnhy2U1_zHADIDFxtPrOtWICXstpePzcdpNygHzhw_dILH8AYehi6aKTziWSiL97eU_-ykXAgpEnAJdF5XKMz2l3yIXbpD-L80keqrQsE5W2T3fifetWOwhMCXMem2KOXknt8Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJpX1_-aFZwokRnSNMK95ppp4/photos/AWn5SU4wCQqjqcRiGN5l3Ey-EF_Lr_YrLe6sc7lQRhpVN37l0R5W4-XCKBdRcTKVZw60FsEuBg5ExJEXuYeEcgvwMnU6a3-h9JdEaKJ2xTSt_artSE_FBayPN0FTOsCw8gFUrfKu5bc0roBQmJZLnQjQc45-ZSmiTNSk8YWua6gFMABN38N579E8B01IdwGFtXdG0ufDQy9yTLP8unongV-Z0uZb1yz1XVNt-y7IB-QwfD7tso-CxemW6TeW6uad3721F3XW6f00c0EQfZ5-3hHlV0XJAsKG73Au32IcAS4KmNJnz1rSFLscc7Tvow-wgCVzX7InyUVS678SOj8pn-UFGWqONQ7LbNdo2-GrKXOFei0V6Ox4ke0wW8MSIQ3le4NgdSqocV6F_VsDP6mu6IKPHcuVZfXGYJ2xe2wIm6notXEKYAoV/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJpX1_-aFZwokRnSNMK95ppp4/photos/AWn5SU50UAlCfC5m5EVGUpP_NAwTXU7Ady3mO_eQbRpb3lpUlg2nYMl_ZwNXwtRqhTg9U6e_JTxPuoM3Gul08a5VVdM1ZhUEtoytjtn9wYGdVAKS6j0WQQZgcQcP_dmXRcrbdzx-t2WfZ9aQS83jhg-UVSxRRH6UlLsVjxr7hE_W23WWitgylrquZ3BkbevndWVx4k8x7ELj2f8m6wJQPOLDVmSEzeOUoPr6tlvs1dkG8DZK9i42i6RQ5xJCaBw04R_SxffXJ-iRr8NK4RN_o4DiQN3M9t9Y2FaGWMoDxPyu01hN88863UGWm4WQxFTdfoW8Owt79hl93ZulCCPzo6m9FqFgMg_uVqW38Bp_uvtHfepUzaB3q_smwcygceekpcVo4Skln8ldgLh9ZbuvvRHCpwEurcSQYSbXS-7dv49PV-gDoSWg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98891,
+              40.7365
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "637.00",
+            "total": "780.36",
+            "variations": {
+              "average": {
+                "base": "637.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "637.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WHNYC299&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nStandard Guest Room, 1 King Bed, 1 King,\n275sqft/25sqm, Wireless internet, for a fee,",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "ALNYC192",
+          "chainCode": "AL",
+          "dupeId": "700147781",
+          "name": "Aloft New York Brooklyn",
+          "address": "216 DUFFIELD STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.69159,
+          "longitude": -73.98466,
+          "rating": 3.8,
+          "user_ratings_total": 1487,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJf_pNZktawokReRbW-4GgV0U/photos/AWn5SU4awGNvkfMFCv6__Vqr1Jnvf5RuI_S9UcHf36TLGDvOnUJCgMSjj1y0xi4zhN7uctsWyyRFvIIiOQZVmXGqH5zmoirPXdJ3VN-69g1yii1r_ZOyQoHJOCG8CX0zkqawt_3vExAJbjlqj6_VHggfQWc8Gnhj5KtZmWL7NDWDyiv5f5cpkmZxHAgh5lPQWA841cSnJexTybKq54-oP-BRVzuxl1n3drlVD-etpd5QwF0xeD1NVEKrUs29fMRdkI0U7taHGhMEbGWzfWjT4MkLEI1HBNIUoDPCCPNi2-0t1xUzNA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJf_pNZktawokReRbW-4GgV0U/photos/AWn5SU6EqdaDeI9PiO_L0hbPZxWN8aUTSdkRHtdrHbY_otKWP6IwcVfpEN_KB0itRtm4Q2b6FpId6CxrCAk7e7ONhRxbSK6ifAgL3OcvnOjmvWjLGf-qVbV1Nl0w1gk0NFWlTPRlp_mMmPCovaGZlWlvg8EgbGEvy_N-KLpqXKFptKVeJ0WBhy-JcNQQB2uu4CxzvgRlaDtYzgPJEYiwQ5qm0btw6x6UK-N88-31Nkyz0yTZP4lg_4hBnWuTgHISMBthvpmTk77xbIec_qLDRpG1FKzioT9hT94rL1FWqxL3QHgjpA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJf_pNZktawokReRbW-4GgV0U/photos/AWn5SU4Lm7ryehZWbsFis4LzXbH5vXhS6goRXOBfw_PYsOK-q8AZhQLQi7GXZtX8rAt_uOWjWfXawWupnIZF6btybltVhOuoUB84vlFh2IfBMLl1W8W0hOnRtmI1jiiOZ3G3P6qaMZc5o7ZcjGpVTHlmEvgCOgpSVboJOEDF82OlSnru92RXmCRpuZHNiiIR3QmJMloue78Z0xvpcJPTc82JOKALLDD305yb-_JU5TX3HhbAsp57jaEl1LFcjoiN-zDMWnFmM9pGePVvIZv1XMzNJWwfog_tl9nGagBuRVvEK-98QQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJf_pNZktawokReRbW-4GgV0U/photos/AWn5SU4Jt-7BhjCuU2JZuzt9HPlaMObxFhlYwkhiHNrgpfi9RwgoXuvlNMee5CGvxgf-E_0B3IS4t53Hx14DD9pGhhiL6sMrwTLX1fGbKno4x3TsJ-r5MxrL37CeG-ANYWV6NfNPUDsPFeriAv_xHwrrISyw5puz6t7ROYVrWcRW0zs_ySrWpDAqVwbLGV0ib5NqYIw9Ovwc9woGrnwI39-Fm4XrZBasmOxNyUYdYO8HEnDXE3UBHP5O54nLS0Jr8xh38z4zPcbenHfhOX0PmpaQaTr5xpzr6FTJwj9lVAobJSbeeQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJf_pNZktawokReRbW-4GgV0U/photos/AWn5SU5FbvASG-ZOs0h6pdBGLnejRGZNF7ml0lBHYgtIPKhb3S6sAhYSC1wPvrCP7sqQjh8sGTirkXQ14p_zMmRM3G5Z_o_f5nCqI2WRef4jTNKo-nPay-Ast73kIofk1cbiFK9f-Uqwx3Cm7IqbexXSCQMjCip-CIA0jydkEjidNFv24SH35SpN-hF-5AOxlGP6MCrtafh-tyhN63Kc89InrAWQ-WmdxXtXmGbI4BCbT0wJQQ3n4y34yeUM6mXtV15nMNSRtpfIZoAGHv_GIK0XjzBaoFlTMtXJ0C_VaQjyqIXFZg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98466,
+              40.69159
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "271.15",
+            "total": "314.65",
+            "variations": {
+              "average": {
+                "base": "271.15"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "271.15"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=ALNYC192&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\n1 King, Mini fridge, 285sqft/26sqm, Wireless\ninternet, for a fee, Coffee/tea maker",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "SINYC727",
+          "chainCode": "SI",
+          "dupeId": "700141751",
+          "name": "Sheraton Brooklyn New York Hotel",
+          "address": "228 DUFFIELD STREET, BROOKLYN, US",
+          "cityCode": "NYC",
+          "latitude": 40.6916,
+          "longitude": -73.98438,
+          "rating": 3.7,
+          "user_ratings_total": 2750,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJuw1VZ0tawokRJbjRretbzwM/photos/AWn5SU6Y0L9xa3Nw0y0LwMfcIopw2EVm-sTXoE5TP4zAw6X7HgnaKxvEAXytJYJIadMtIlCnNoH2I_jdKxak8cX6FMIU_JlYxZ92otqLtB-u7OLXHfFI713H45olvNG3b_d9gImAl8o08bQmGjq9K_WiKWEgyKY7E4UIpbGAVjhAJznk-2dexu10-yGt4MacQHPk33KLVdbYsM3f7eJIOfJLxFjzs7_pjd82s6idnwHmga0-Xot7GX1ejEJZqlRGhMPyQge4kYXdATG2CXYvrOlgVTUp3u6afHlkOdEtGhBbyYc0Ig/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJuw1VZ0tawokRJbjRretbzwM/photos/AWn5SU5d4T2un7qNfYldnJruSeLTLnLfUBKJ4DFzXUswg6QPI3fZFGeV6jGUNI1yS_OrIHqECrcbVKJYfuBfQ2eCHHhwPy0d8SBw2CpwrbH36Z0WzW4mzqLVZj-7hARZ28iHqfYngFGaT-YjdcYhP7FBU8z7Fdw0iyTYqUo5l5G-EE2NvfBMbIKIYVywmDjy_jcCPSxciLq209of3-Plk2waq0bXIV0e1IIhg_6BNuo5TdzLu5WEb4auzKSV_McGTqu2fcD5gac4RKbyNkib4u2_77HmQrs_K3LDOfGDp7IPOmSerw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJuw1VZ0tawokRJbjRretbzwM/photos/AWn5SU5_AQ-vjpH8B6FJP8zhqm5OPdU1YCXWDUCjl91lNGcRHIIjDEcQtAw0TlNOXHVeoj00g6WqQyg2OMxHE2WWtQwlfJbesW7mmTO2n2GOweHmyuSAcpF-cym1FRRZZj4HhMp5Umulv2k-0F4gQ9ZQdPW3ttxF9t1w7yZnRQKX4XNuRO1syts6R9jXwf5W8H3kst5S-dhbTnE_-M9xpJhCWeSE8wLd6jVV-gJ_5teEhuFO11fWDuJZChCU0TcI4YcUyFVIZdDtCfCLH76HzGlE-_mar3pkAnlPCGkNAMPnxYTS3AXFX4i6aAxrQBe-eJmE1bJ1TDjdZwbsjeSSwMeQMAUbH4-JJcnDiZ3W3h_hjsPD_VtuOC6tz2sJiwapktX2gJD5ZI-mBVGmrJwWgTT2Kl_tqisYhsaXU97NUkt1iLCwtqEX/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJuw1VZ0tawokRJbjRretbzwM/photos/AWn5SU5IJIPck_q4PwchcQOAXO-BAYjSqsRrMlXn36EHy7WBM4JeLVyq56w41SbgAXhMWbIx2-KGEQNN-Fkw8YvyBVyNQSlYl5D7LxUfcPZU-TyOkMFRetJjYp9unkyY5pW6iTKCNM_5C3MpgaSheKs42sIiQLx-ZduuMchIOD18afd_RKcwrYXI4etVm-5mF1kkbF1tOuqc3NgLYbVwos2HdeZeJxxYQOsYMQuao1xu4Du5mSGZt4PCoICZ1Zxz3a-FShxbG6kgoFv7i3XsZxJ3o99bbBtZs_N8iejk0SOXWaeeGofAyEVHVyGU-WvNHfoyhlLi_AXOMhD0Siq1NuL0yg8WFSBfE85MVLUmsW2j50_Y5vYLjivsT0y3J4IceLpkIahjPpDAK9VpQ4acUs-rB7K5ag5nNN88kIQh5MKaF9Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJuw1VZ0tawokRJbjRretbzwM/photos/AWn5SU5jS-qk619P1vRHJYL4XWb-7O2YetsogqEr9RYxuUZXYM4tOJMJUrEonQJMFOzRggrQiWoDwH7MV0VNqEHmHOC8Tj36RpQq9Rax7L0HqH-9QvGN0CCXFE44Dz9iFDu7xp3-yiwIedY10J2BMVK4nkx6go0h21uLrcefCVXKBpp7V21-HSS3pHlJpNyvyKKwQVxsUYeloK5QqJbixSkGXCfkY8DgEhoEs_dF6DFjd23Zc8Wq8xlciUvPOo2EVvfKrivYtfHEmTrZll0NBmJB62teI2tsiGD4sUh76s4dPTQvyA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98438,
+              40.6916
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "322.15",
+            "total": "373.18",
+            "variations": {
+              "average": {
+                "base": "322.15"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "322.15"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=SINYC727&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\n1 King, 216sqft/19sqm-266sqft/24sqm, Wireless\ninternet, for a fee",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WIEWR049",
+          "chainCode": "WI",
+          "dupeId": "700078770",
+          "name": "The Westin Jersey City Newport",
+          "address": "479 WASHINGTON BLVD, JERSEY CITY, US",
+          "cityCode": "EWR",
+          "latitude": 40.72404,
+          "longitude": -74.03606,
+          "rating": 4.4,
+          "user_ratings_total": 2519,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJa_XMY1NXwokRoLJllCnrJ8M/photos/AWn5SU69Buhi-m6TlX37SJTZEf0TDB68AoIQG4SN7Db8COWTq5FU3tVZv7DANypSaQBGBKKoeznxop2rlrHezXplhDIIQUgGwNwjy7Rtycbsnd-ceuTFNhr6XUbvq2hmHj5w4xNW4Z8Bha8YfErECs4WcYOJmUrlv59r3EVuiZkQl-go6foR9Cn7XueVblipJfUtNpoNbap4sXfnrL6rKeZQ3qrn7xAc9ShPsv9cXDant6bZnLIBH4Olg6KNj-JPaN_eKo3-7kKMA_RVLvuKTPxcNsnUNtzuuia-DbSqT_XsVyHeXg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJa_XMY1NXwokRoLJllCnrJ8M/photos/AWn5SU5ZKGXi2_n7cabq8I0lFTtYa0ui02uJ6O53yNtgZLtKnQtm2r4dN5XauF2NtA7xEBDlUhDspr9sd_LT0qKPSpIexLBL33G0DzrOGqKTr2WnXco22qNti_IUPhASyT28BBaFq7EalXKXOV_Kffs8d50d1KNfIN3_q22753WjbmKNcYW2N-7Q0lQ8gG97zQSfP8U3zA-kmNFKwfbbMFyOod7C-BrQgjWPpSiE4Idw4NK_i5haqwjBvfKYrfdPu8waAamOTvhUz9ropa0Kz4Nw3yTcoEMxAc3nYmsz7l4-DgAr5A/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJa_XMY1NXwokRoLJllCnrJ8M/photos/AWn5SU5GafuJny8rpouPOudny7gEkEb5Zh2SktzbKa1WeEiru01y5BrJUp-_7usWnYgEwQy0jhdzDTI6JoVuewDtM049oNSuNgY12rxs7bS9xrWVAdA4aWuskLvaac51ND7Ad3y0IjTyIzLn91rjQT9DmQItYbzjRtuqBKJj9bNDiZ1Hs01nR0v6QZtFZAT5MQlBNPAci5c3Ul__qz_u6eKbKSyh5tdNEb3UaGl-qP9WZbHw0nj5yVf8HbPHEhQz47PMK6tdVSUXvoJ_nGpxqRfY7Qvcp7_d1ywGKVW9alB8zs7H-ArBcYvkrQNGOBY1S_CeoSqdOYg9_bto-5FBJFV-AlQmWlI_SsiUChBPQgNhraLzCFOhMms59CU3-ypHUSB-gdzU7-uqroXGiLq187kn7RuUCyHg5XhwKFuW7qWBkghGTQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJa_XMY1NXwokRoLJllCnrJ8M/photos/AWn5SU5tVpYjY13kvKmve6VCDWMSjdAObZntVe6pJwY8QN0EpEV0-fLgFyvfnQcwAbXWW8fiLMPQUwaM8pz0EZlB6SZ3RI0YIqLgyHx4pbG6T3gqBUL2OQ_67m2IK-OEtwZ1rg8SiymGwYi8gZ6T1FtzwvnFW0HM_5AZHEyGnf874fFJ4lJWXbdlwj6hTmq7IxU08v9RfKPNBY2S9IJ9GHIUyC_5dTMcI25AamG4kVL4SOz5D4nU-5rbTrsFt3pdfiDqmwsDLfdRuFOFHtHkAYniPXPKqnXUmE80pEmyqkM0feXEPw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJa_XMY1NXwokRoLJllCnrJ8M/photos/AWn5SU4KrWH0_BeRSbJhdu69vc72428sr6lONo1nWfQc_biDkDN3I8qFYqX05lbTJs46OMZ88SPytFy2KH132ZxBkpp1cwqpZiJwT7mQSv5eSe6q_XpAUmkDFhfhhvqUr_39jU2MZ52Dvz-ITgM-QNACLkOhdBkuFVlYmIrCibrJVIhPmywRQGBYN0vnxmy7f1cvrwayMEiVqXtuoP396LbfVwCPmSMt8Lf6QOjii21MMRa4C-Eo5jx95Usyoh_ij1fFY5A71cVYfrTKpcqtJqAmYRy8uQq7tUApIWf1w-mRvsX_Rw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.03606,
+              40.72404
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "305.00",
+            "total": "355.71",
+            "variations": {
+              "average": {
+                "base": "305.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "305.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WIEWR049&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nTraditional King, 1 King, Mini fridge,\n360sqft/32sqm, Wireless internet, for a fee,",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": null,
+              "beds": null,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYEWRNWC",
+          "chainCode": "CY",
+          "dupeId": "700065663",
+          "name": "Courtyard by Marriott Jersey City Newport",
+          "address": "540 WASHINGTON BLVD, JERSEY CITY, US",
+          "cityCode": "EWR",
+          "latitude": 40.72973,
+          "longitude": -74.03458,
+          "rating": 4.2,
+          "user_ratings_total": 1215,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJq3yNJlRXwokR4AcdAM9oIm0/photos/AWn5SU4qYq3wnDnqvlhJkabmjy6bWzDNFUtpwVjdIPMT4DkMztLHWMO-bWWA3MNyYBOsSIvcFlYtX6XuXkrFFg5XCZHaB0g8va9Q3P4iKqBNlD7_bvDFfbAtpsjw2z14QEAttMdeaWPV4HhvEPzwcCkDFQMuipmJRjXCWRzjMP1adhvuRrG_qe9u-A_ao3edek7qhiA50HZfOM7QUGEomG9Y8p1cn4C1iIkGwJENMHpQZ-Pnk-HNsa58_Tm77oRHSYFmytW7GwREXV8c7bpzdOEryRujFuuw2aoN9IzjllybVwmYiw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJq3yNJlRXwokR4AcdAM9oIm0/photos/AWn5SU7rGp4KJGDaIfg4CefjnmV08-S0LDaHZ654iwn2occa0IEbwGqX_n6XZWl7NfQhXhG_-IF8Gfhb_DzX4wm950-41C-Xvpq36-bQ1GtTKy3dbx1yK89WoFT9ifkARSi8exEp7Oh1RXXqoDU-n3Eut2Vzkr89dJ2XLyq8LEfKcan57d5ANiR_DZ-KHfYLK0RkwxuOBKlc51UgNtULZ_IMIvgjeqHEXUJltRQ5mHPtLO3wpyPOBpnosF51lH9LOCjRp9bSPl_TXQY2saH1hii4fGe9G2V1L2uuZQWXiQaOVeGWfg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJq3yNJlRXwokR4AcdAM9oIm0/photos/AWn5SU5tctJqUIMk_3Q2T6vBiqvYhAvjmUIW8Gxm0qJTacKLPtW_qTOMlcc1w56uFQywM7LpYFI9SIT1DZSK3yiz-GQvXvm_jgfZgixfDYohK7rovhf5aVOgYeRoHuS789i9lRKYtrxYl6tbScmMjRDb6Hq8Z07i0qSpXteOIX3V7nos2839CDO6qIJcYU6XivMTmAsZVHAUOW9JyKS3BF1Pl4i-PcrF3EYIXNYjpMOI-KOOojBXGcwDsR-pTbMZ6kYoe5a0bqm4Wj__TG3FPma7UKHlMs9g9zj5_BlOkFARW-L0Ng/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJq3yNJlRXwokR4AcdAM9oIm0/photos/AWn5SU4onsy_WlUEdBZb6E-kTtdHgN4e6WTvOsYuRKw6uf_ez5OhOuDHzvx8O9AIVEhOtyGHDtyH1nA2inK8e_gpmLion8ZhdY61HoYC_kdRD_le_yRUA9_pxp9SnHGDkUUX7JE4ID5dEdXQQV7pCs4-D6YFQcwbqn3hw97IibfFBehJxNXy0M2sEGsY9rqPSwDBgvWzGqRkYom7Ogo9C_DaKKXwF-VWmzy3g-EDblE2dfqcCsh6THRwzTymMuvi9Og__cohiyUKa6COL7k-92eRFzHgLEc-jcMM-NkGoW9Ga_lVD8qf2adP2Y-fB6lqxIx0op5006BlNQPB217JJS4d-n_KIiDJpod0V1WeZ4MlwUTURY9wsuedpzKW-1pje1GYOuaA6F8TJlWfDQYfzTfgAHEX0QyRDBhZvgVloqnYiGtfUMo6/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJq3yNJlRXwokR4AcdAM9oIm0/photos/AWn5SU58H9EgmXqIrflD3j44_tkMfmjTB7mUDkMaTjF4IU7WRLv3wQjCimZ91Hz09pWbFc__DKZf9Ry_CR4piLGzQPw1MQk11XuUtuORdxXyxyi4V5QMMWTaPW3VZaoh7Z2DG1i4MVzgBGiajwKNTOuus0u3lDfTnAqSSqwrJd95NbkaOFXptyr7sxrEoFlBTMsEs4Rv0N9JIO5a5dpnJ1RZZF6w401S3neodTQ68Ljyedwpvyk87QKpH6seDyK1RRIHA8Cqg0vRMZT3FxuIvtukwEv84qxUnoTsX_h98mHYJqsDZncG3Z7vlPPK5iQO01RJAfutmOfPc3w4-lr4w03-goycaSZGa0yRXf-ZkSnFhT-_ZDkeboPeSR-X_r7Zi-NIkKocR0G9rUtuT800DTTrt4pSk3hwdhj5yCMHBWQ7KhLYRxj8/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.03458,
+              40.72973
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "355.00",
+            "total": "414.02",
+            "variations": {
+              "average": {
+                "base": "355.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "355.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYEWRNWC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 1 day prior to stay\n2 Queen, Mini fridge, 350sqft/32sqm, Wireless\ninternet, complimentary, Coffee/tea maker",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "QUEEN",
+              "beds": 2,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WHEWR785",
+          "chainCode": "WH",
+          "dupeId": "700079603",
+          "name": "W Hoboken",
+          "address": "225 RIVER STREET, HOBOKEN, US",
+          "cityCode": "EWR",
+          "latitude": 40.73868,
+          "longitude": -74.02837,
+          "rating": 4.4,
+          "user_ratings_total": 2028,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ67eiTOBZwokRvqTgL4UexRk/photos/AWn5SU5ClnZVUMdyC97o_ZBP_o7dx4hx9a_HI7TwIMXRMAQKM6ztNCcp3P1m756XUcWUbZhzpAs_sMA2Q4cgkPic0nm96ctLiE0dGGIS53fGmOiKc5PCeD4r8kyuFjtZE8oSYHRlm6QAYzIZ4gi4IrT46y-pnfZf97UP7PrRp7iIKV7xNbNSTxWLgchMktO6FQrLV_79SrU8Otxo_8mfAFur06izyaOnQM1m6AOv6tFriiAmhcpFPHVpG2sxiK57A0fv3nXio-YjlxzlI1G7R2Fs0vINVbB9laPflpGzJpmkHTvnrQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ67eiTOBZwokRvqTgL4UexRk/photos/AWn5SU6wqwsXbii3twLs2ylciYzdNpjdpI-BJmkH3rlqg3kphngSMOQzplUM2zo-gyl6dFzBMsEhzHRxt079kpIRKeGRB-Or8PTUDp4gC_uiBDHCLQyDIYZb9gkKdVtV1GclRQvQlB8E6a6YoRcpY1PA-jPGVaeha9JFF6TgwNCKsk7z3dN_4JUcZrHh-T9DifyuPQKuAvPUGU9gy6G-m70GR2KxYRJipgGLeF96pgDbbVH_EPN62IwZKaLzEv9ZbmZMIAhiWkGiUCFuLtmCVdRZi-GT5ihYwE13cjbARPy0VMyvsg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ67eiTOBZwokRvqTgL4UexRk/photos/AWn5SU5cPnWP3N5dvU2xXhWZ88LblAGqhPNoZEGI_lkJGP8TeRk9FsuSyuYDIU3mttowsYcesLAWnrslmo-iyel2LWpf6VSgMVxnnUT3KJ0wr5pliIEF9v6X_q6Lvuw7HC4LFYGpHSE4RbEpHOd7vx8O-jfOMevqvNKPGWsPDPkCyrczjk_RAXXnrmoZYPR3dQspGwXb79IUF63NuPWlzKiVbHQkzso-rala2CqCoWLqmKaotYGbRrHJQcG9JJ97vVcVxAZb0ryULEZoTpLB8H2yQqD1z8njOG-oX-UzsqcqwibqjuHqnAs3-ZZsLIITOoPcasEMdyOdP1F4VAmwfVUnTzg7ZSGhwkrNKu6nYCCvc_fIqpPTBHaer2uP8XA21LkA7Uu-eZQTMQ5WKjrNhB6PuA6--_n9VsXVjJDFCqSV6NdYOTF5/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ67eiTOBZwokRvqTgL4UexRk/photos/AWn5SU5IdjwKqK6BYHi0YT8RnAJoC0L-uDNbRwnno_Y0w5R2h0OLVnFrU27DaldnAPuQqqF6SL572N83b0TmtSq2LEbbeLgl9613Eibvd_r26YK7Kq-87wa7aOCc-3knL1Gqekj-r7h3wUTMHkRA5cVNBGPTrtZHn616eYHGiLUcIqS3tJuY463zYTzaWYAkXmBbbi0c_VH0XHLO_AXGYpHKbYkr2I268yXs_hjw1SaVvXsij5-NsuFO_sFRjHiTUmW_unwDzAZ3_4gH7MD-hbpMQlVVWu9B-7lN3xEP_KUEDZTXNg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ67eiTOBZwokRvqTgL4UexRk/photos/AWn5SU7YwDyXcwyzjFgHVCGw1YpArmXptQHKnMLsjx5yxHUf0ybSf-skrg4AuMB0eUyaYyj78nzijPoQdIGWyHnQgUUDKff7rK-y8m08e-I4ehLZ2-Dj9JFf6saAQQK5y2hCgHdwKg25AnGGaw2JEY9XoSLlHTukflX_Kubf9kln05P0qcyfIeWGeeR6rFYhbwCKOCmUXS0TqbQO69_e8b5pmhIKeLsjdoVlDsKdsdR_i1yqSEZZ4dXQXFHAqOINdZltJi5DNKhA8eWZlkpi5wLJTSlwRj7CIOYk6Y0ZX--8oXapbA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.02837,
+              40.73868
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "404.10",
+            "total": "463.20",
+            "variations": {
+              "average": {
+                "base": "404.10"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "404.10"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WHEWR785&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nCozy King, 1 King, 280sqft/25sqm, Wireless\ninternet, for a fee, Coffee/tea maker",
+            "type": "AP7",
+            "typeEstimated": null
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "FNNYCTWF",
+          "chainCode": "FN",
+          "dupeId": "700148858",
+          "name": "Fairfield Inn and Suites by Marriott New York Manhattan Chelsea",
+          "address": "116 WEST 28TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.7462,
+          "longitude": -73.99096,
+          "rating": 4.0,
+          "user_ratings_total": 894,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJgXlbh6VZwokRbhvJi3Dvi2o/photos/AWn5SU5Df9m36mZjMoEq7KZTSK8bjMyOUNUw0LyPRQ8yUr_SLWJq4Qox3oTd5FV-oKllZ49qLerLFd-runmrVxE-_27TrPWv3AYpjzIVj9kRTxSkmFH5v4PQ3gX0dBCVKSJTXqcyCtNhAzzIRBpkVHDMgq9plIt4YafrQLCR0jIqh-IeDVOMt41NCUuUqyrQrnodUSf5U7-sio1NSdx_5R3rKLyQ0-pageqywILPjTVd5wZT1nN6f4rejCeu8RwAXSo8MEqWngs-uZHJHYgTF-1LbbFYR0_L2Cc0hJs5eqJOQ-dcdg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJgXlbh6VZwokRbhvJi3Dvi2o/photos/AWn5SU44ckiTUuyu6kPLPx523JSLLHqlccGSZwbbkbcwXGjM9pUsruBbLV66qTBpxedrQ62kcB-dxrCqgYKQe8Ei_7fGfysv-cdXZfu8AvHM6M1pYhIY1BFAwK4RD50Fpbz_BpmgDRaRUaElKO8pnsA2F6bnGU6GRklL00YWFvDG7rLYru9j4VZevB2xiMf9k42JaftAzWBaurTCCv6rL_RNnDtlUai01vjwsEXx3oZGyeFCc_aSf8UDGbCBQWcvQwZXlzexo053F3VFtAGfdBlpwH2rPxEnnx9JbxXJyBE6rlnMLg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJgXlbh6VZwokRbhvJi3Dvi2o/photos/AWn5SU5PYJV5Ww92G_8Powo1JSoY3to_Lq5KpLgYU1j4eegDKPfFh8AQZQtHl_uebmXHGZkmGY0QQVgYfHVnBXfZXv1RahIn1lUC4gnLcTTyDa-kmMxXvbgdsyg4btxgDX6-5MTQsn6XXI6dNvQZfymoWBPj1P-l_bcMsAfC0owlPc0lQvPsWY78TAQquz_PVZP-8V9TDOu1z12cn90Ox48i2Xjznczk4wmPpEvHrpqMeTGj1JqC6zLXMt0sb2HkpqnqqIwVhQar0biAkLpwhjlKgKNY2LhmfIIwIU6cjs2DFhq-Rg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJgXlbh6VZwokRbhvJi3Dvi2o/photos/AWn5SU4Sl4TAV2ZClKIxArxk0xnwwmt380oCdYGzPSQmw205Kt4ODXrGcQwJb-kgrBhsZ7s4Znmry2vX1sSbpy4WPnqo6v7DzVe8XsvMaccmz3RkkaNsjlPnjs5jbD6MuY9qfgHUD54uKtwMWAFTd16sQD-gbgsZz6aAZ03dNlxT_iHjSf0tld_EOMu6Bcn0Qr9DsjlcsWlhlZYfEOJ93hEH1ICUsntvyHYBrvjXCdjg0gIqgkAiyuKVqM1SAkZ-jDzRF_FM-A87sxLa1ccaKikWLGIj2vT5w5jNrgIem-WBFTcxaQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJgXlbh6VZwokRbhvJi3Dvi2o/photos/AWn5SU6rMB71TLByKVJ29Okxml73_yTyxnopWeCBRCmteTA9l-8NPVp1SRRGVaIZJp-cdQDwxJBbagEooUF92xoBALGQ_8YTgWz5R6o10EfNmjI2g9vAjArzBFFz_byW0_jrcSbdKgZHAZ1pQGme2UV4c6lZPeeoMWBCCpjiu8rvSEYOTve6kxqLnS7MFlWAcprrxTB0bOaFE70-RBUSd4vEOetPhsl09houWgFQfJUtWF-3IyuZF9ZOeCHasE4wXcjo9bnK4Iz4NRGbswZaRwpe0AqnvRSwaHZDeHmh88KTw3Z67A/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.99096,
+              40.7462
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "269.10",
+            "total": "312.29",
+            "variations": {
+              "average": {
+                "base": "269.10"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "269.10"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=FNNYCTWF&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\n1 King, 180sqft/16sqm, Wireless internet,\ncomplimentary, Wired internet, complimentary,",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "FNNYCBFF",
+          "chainCode": "FN",
+          "dupeId": "700149007",
+          "name": "Fairfield Inn and Suites by Marriott New York Brooklyn",
+          "address": "181 THIRD AVENUE, BROOKLYN, US",
+          "cityCode": "NYC",
+          "latitude": 40.6809,
+          "longitude": -73.9837,
+          "rating": 4.0,
+          "user_ratings_total": 1133,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJqV3RpFRawokRPr-hSqO5pmk/photos/AWn5SU4DB5f_tz-iF9oNarbPm_nGi6xd9ezrPf9Wkxt3UQX6Fw9-oHE3lcnnnJRwXT1VsOcfUVP7cit4t_NSmSrqdGKuCZH83lHdCsvDgaTLGcSmQOF9JZtqHp9r7-s9eXfjv4-KPqhSCdP_lKutFFO0RjvglIZMyPvvUwJrpPBCzC_Ty7ZModUSw2Xs_a7AxZdO5YcALUU1nj2XJo4mx70g7R6qer4hQDYhd-dfzIAv4Gx0w2ueTdF_avVMUyHHFGnEGiMVhGi01mDrCKp3kug8djbNNrI9pDQfEggKfOSHOx932w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJqV3RpFRawokRPr-hSqO5pmk/photos/AWn5SU4q-6xzXguPIHUJ4t5yHxu0pqwdPI7wgRsO8vYlrt9Jl5Pil9ztEVAXNjUo06xdubPQ8JNSQqR_CbstDXZvDRRO3CNYksAQICdJybDKKDJ-ADblehfmaSbuo3xWreWoy1J5PZ3adxT4yCYGsmCvP1xkop-cad56jU8d2NgiC77hMZezTiR-pHMTxVR7evXUe6ZEHWGzGgVh2vpvvoP4uCMMNrT8vaI4M3VSdReKFv80H4C3ZQjZZi4X1dCnPWGyvCDN3TvwEpgXmJ70KIJmOgboWGIYxA9klfCGmbQqmML65PbHfEksjfOcezPLzOnqymXNPOsO64b2gKANAKK7kkjCQ-8-xycwyd8X69s_LHKyhPwXjet94sZQcNSVIKJUa4ffPOKTdm-4liQ3rr7nD-7NWLhAsgg8k64yeHeBbVm_zA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJqV3RpFRawokRPr-hSqO5pmk/photos/AWn5SU7K335wN_1QvbeW9lp9_8QAtloMiEcpBBhs-3b9VdqOnEQTYfHcZLsBk6pXStM4vm4BkJO1QDMRh0v89xNM5qy7r7b4iyZh4UB7cEGvszMpX0LbUjoopq6EtFqdIZKWXh1H4vFcAFhQMILrgtl2xDuIzayRFijK_nAR4TfE633FJbzRh2QcDdm7kP2HCAsai0kF3WZbpX-DQXmR5VrqrGvAyjXz_SAEl2_fYN83XXIkr1iMTKhcGVot0KoLghV9FLfm8KWqFmOC4s1UzFJmjdIs9Xrj-CNWWCcX-YxgabIwWA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJqV3RpFRawokRPr-hSqO5pmk/photos/AWn5SU7dKPe32Rp_S-nMnjnTqrUllsuaMWyHZr1vd_fko4veE5vRIh6PKU0k1kP3FeSoM3tBmrPfeI-k_JEgOL90uttUx5iZfYEEJaeMLRP3cZvdtfmkif3BtDrx7Blx9f7U55SceZy2pMmoQ_jYwjkjHqftdbKgfA5z4O4PdKXuBK8qX5c7ZX4omLkDf2vLdoavPz8guQXjUR2V_-nGPy5LsARKl8GsXOBJHdzDBr8mkltl_S1fbRyIQSTOlQQZjCKtwQ6jJTUY2ZEPiA-cugLDjGX10k5rFeZYLUXtvhXpHko57A/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJqV3RpFRawokRPr-hSqO5pmk/photos/AWn5SU5hiuXELKGw8j83eUeYbzRAZA5kIO_DooDjetjGam-ypZtboj-MYJkmMFAwAVPoV4c1n76c-aZ6NbjkkUusfZy24pD4nz-V4iZ1ThhKE1GB7GvvgTlM5JwJxECk6_lkV3dsY86oQB4jwSLmMnGYWLmX47EwZP6uKBez27Kuc7lnXUuw6g5-Z-mFapvsFnapJgKQApIdnUvDNec5i12SjxsTr7GC768CLsT0V1pF9MXQYofdhMIZAlPAOA624gmleS0fM6sQrg-RxaDWpXmvv0uh-LC5F9qNwtMH9BoHRt5DvQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.9837,
+              40.6809
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "262.65",
+            "total": "304.90",
+            "variations": {
+              "average": {
+                "base": "262.65"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "262.65"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=FNNYCBFF&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 7 days prior to stay\n1 King, Wireless internet, complimentary,\nWired internet, complimentary",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYNYCCEC",
+          "chainCode": "CY",
+          "dupeId": "900058067",
+          "name": "Courtyard by Marriott New York Manhattan Chelsea",
+          "address": "135 W. 30TH ST, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.74819,
+          "longitude": -73.9912,
+          "rating": 4.3,
+          "user_ratings_total": 1443,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJFQEgD69ZwokR3_UUCqb0gTg/photos/AWn5SU4kyKncn0W3oMSO6QeCUCr80FkcBBRk8LmlvBOijed2rGEmKLWSLiKbFKl0crWOwf0FNTvkHF6ZW6UPBR0MsO83wcKzfxmN862M14GkuPT_nX4mncBHIqcgMrjHyLCMkvtf22w6kAaD5V2bAvob8uy3pzd1fkSHk0yhv3ZYJNq1tvQOjhLdKUuydLhMMgBgXRO-vVLHB_yjMgAL9mEN7mqMD0xpkGCSsiahqRQjorE0O02r8l70NnmxtAadmna__AYNw3VfpSuUkkuEZKv4yxrIGFVxIXd7ijwl_G8qEhdIlA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFQEgD69ZwokR3_UUCqb0gTg/photos/AWn5SU6-U-81BM1st0tPjlTNzUudW54ldzprnkhDA63cis0da5V4B4dR-1dtyiZ9ws6F0NoIhrQUk9fCujTfHcTPyAfJv09yEJVFByaDIdI-Og4HQXIWwFzfQRmN_xvcBraDWMjGI_Tfc0kir4Xv0_GrHU27GJjGiGWmEX1y-jFaER5DYLKu3_JlnMLEzD-32u_uIWPF-jisNLNPKF0xZlyQg1z8l2Q7OAW_SyuC-fgMfO3DhXfV_NO_F_GCkb7TqzuNMX2y4yknnJcKwk5PHsO72p65gLJr-ogGRLMSH5BxQU5zcg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFQEgD69ZwokR3_UUCqb0gTg/photos/AWn5SU4AV5sT6hoHttdn4GHMTAv06yKUNzHWoc_AG_TarP3RDU5ml0Znd5o8wu5FgztQ_wXkzzeMhnZb7yfnGQ-q0gJqWW3GWh4x1tgaZDpSJqpxvXNecps9_H_lXApZV9-bWeaU7JyMpE8qElyipQ28Mi1FV3fP6bPNX4ch1EeGQmEI83RS9x6_PLxPeKCIjInXxsdIYn2fmPCfpyDZ_vKvC5xlO9CkDO05WQ03vGRCergKxxmC-e7AN-kG8ZgBoyN2-_vCBG5JDYyebrzsWHYGI9cp5oAAZRQhPD9q3a9j7K0T8gLzNXEGNrS_oj8eqNwa4oaZ-sh090c7jXo5GCqSPZTDnKqTXoe5i-Aj6PNUgRxWjR5zwFYgaqoqqR1u3QoMQb07BoX-IGVsH3IRg8Vwe7wg3SMQoF6W6pmpi331g0yqRBY0/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFQEgD69ZwokR3_UUCqb0gTg/photos/AWn5SU6-ZPlcfMKc5yiExWFBGBqELjIDNqW0nCd3VbgXiKyNOspiaXE7sWw8tqL58Pznrd08y-ytuyNncxxhoOuj-wffjCArISup-YnMtbNnLRvySJiX84qTD9gF-xmHv8PEhovjl2KsKNMNTp5ozhNYvFGAL7NiDifv8IEjP6wLkMsDGvujI7dXYEFxZTrqySqdvL_sj7Qe-q63u9tHHu-I3b0tRhQ08CLoXzxGxzp1V4bwEU0GCZyG0iO8LbPaPhgieqNMOwZx9uevDoNyePiOx0uei_Yxn17V-JjiV5WEwYsSMA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFQEgD69ZwokR3_UUCqb0gTg/photos/AWn5SU53FS0Q24meWDyQYuO0vG7CvTCQhKwzvG4sEnr1o0D3IuqBpyRKO0TSbMaO3oh1KXkBVsdF3OjIuQ-btqVfwRBSHRttgcDgBcBZwHOadj6ho1Uu--BI_2CdsKQUOVrZH09DKkwPLtn0SubVwuMkhQ6KDSlx7mClGUZ7y1-EYR_XYihPiFoaA-NrbmC2xhiJhDmYgKpIDoo1u55CyWFv5dtygNa-ZwheFXSWN0QWCB3DCru8qnspbzRBGI9Otdum1bpoj3h-9vh5AP4n04uGtRiOohgrY0LtoZt5s1i-rUdnI0Pig7BVqnNv9cdDuGHZux7Z1His9jtloXj3_Rhj1J2F4ozaONRVPxakIhQhdJpB7_ZxHgC0nIjKpIasVyPKuKWYCsxf1r0oYdSKp2Xg1VCCAAmPtCSyUS1BmdbIDSLUJI59/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.9912,
+              40.74819
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "359.00",
+            "total": "415.46",
+            "variations": {
+              "average": {
+                "base": "359.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "359.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": 1,
+                "deadline": "2025-12-21T23:59:00-05:00",
+                "amount": "415.46",
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "guarantee",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYNYCCEC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Flexible Rate\nNewly Redesigned Rooms, 1 King, Mini fridge,\n260sqft/23sqm, Wireless internet,",
+            "type": "REG",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "FNNYCPSF",
+          "chainCode": "FN",
+          "dupeId": "700183568",
+          "name": "Fairfield Inn and Suites by Marriott NY Midtown Manhattan Penn Station",
+          "address": "325 WEST 33RD ST, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75226,
+          "longitude": -73.99512,
+          "rating": 4.2,
+          "user_ratings_total": 2133,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ8yCgBrJZwokRL09ISkkQwBs/photos/AWn5SU7GCF5jsNTP8G_7ZV2t_fCzPmMSZPYzYUynGPymVSGS6QYdzgP2LclO5FNpI_r2jQUC9KEx3hzWzUAs32Euw2veSrvTn9q_bzvFgkW3AtHNpuvA30Xa-BO4EY-GdImbugaRv76kgFPFMxbyNn6CuvzE_PNbrMIS8mh4DSQlHS0RXglhFjNj4Yrf_a7rZxUsm4TJHudbhfAflSHSXMZ__fT7em6YrIkwdJK493vD-tOChVInIfczAt5vHYTAM1-WMAaB-uU8yc6X4-QocTSHtFOjdsbur0Y2IEwo4rG1FguMsA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ8yCgBrJZwokRL09ISkkQwBs/photos/AWn5SU4774ifTqcE5aGR1ir-xkWvYbSCvVCW6MV_Gg9OXUP5Ho7pPjn1sc7knlolrT9zHTCt8a3H5gAVwSrbgPADPUYCRlsCjtn1PUgN1o2QE0BmZt6mRMlypAbk8QUVhyKsPfMz8ZmX5U79EjAA0LVkKMyahyrcH-owoRioBRBxP-6atMGi1Zz3wPd4OGrp_tNggC7uIPT4yqzUuqR9rcDp0-S1VLjcNLR6Zk1eyUeF1R3h1Ym7tY4SErpewiXrj3wdA2zPC12Iz2joqODxaFGGpEl7bzYQkb8kOojSLmjkgM3av0-4nMHzUGdLt3oHk8N47EBEJzbmJ6xSql_rheFwIPif_NpzYwq8_9BBpXTg4ndhVFLdexzE7nVveCzpyT1szrz5xBnd6bUrLeKWyTqx4_sGXWWFIGECSJHVe1uLAcs/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ8yCgBrJZwokRL09ISkkQwBs/photos/AWn5SU7w4Bbq6FjULfOOvx-xkVU8kZZV-2iELbaAFoVC_6ysOIyRFt-GjEp6ZxnGKCbsrecZfUim1d6C8-DUJ-qe77dyKh2d9er48RMPniOstEX07CP5GqbVawUX7K_mYvCQFigthZJEajFeZPU5yr67AM23Y5MzExf4Vi9s8nCkZb2Yabs26t3RyWIQRKPKrpOtlXsG6fU3pANfbZgRPBivq2joP5brxjtbHir3VXfHK8aQ8j3T5yVnhoMQhBPTraJa_sSw7pYUuUlTMpqWSmCe9iiBVNqoeafYXSdLN4wYC5x5_KjA1yoQ5_pyNXoudDBGprm5y2Jezc2sWbGtSBLLtlrl-EohfGYgM7v5pf9JMyLUoWqn8LgUEjIW_O7pYbpXPGV3of04mnvdLRUEXnAhgXYMzGRU4CtFdcz0_SfG9SvZQ933/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ8yCgBrJZwokRL09ISkkQwBs/photos/AWn5SU6J81hUooFNlKcvh3cC4_OxK3NQwPWwSlpRc5ombGsuYmzdh6VXQ2gQWQemoEx0Bp3dlifOyLdzwfutal-IJm49PaQ3yZZN6qNdxwB5LuGTLg7rU58h8YeaK7YQ8aJXEmpG4466Pro7jHCwYDQdx1wVLly9ViRHT_iN7nEJKpSYkJBa4kYXdlv0RYcxCqD0-TaNT1NEDQLWOshWB9xOIeg7qVWeOwTvaZR9RU1kV1_0Ef6FOM5-qG4sBa5_vyjMGjMZRY9U1pLu39e151UVEt49JG_iEkDuF7oV3JIg9wKiFg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ8yCgBrJZwokRL09ISkkQwBs/photos/AWn5SU4P6ewzd7bLq-U8pnDlyrYlZQH8_Me6eUNUJbkgUcOTswO2ws9wAWYwEkmC_RLJx8ETqqndJWtARczg6QxzaKQpiKmiraHME3NRZgPls8zWh2NqYIpy3kNKdYJBE9L9B-IxGyGM3-npZpFxS3B0-qjY-2Pj-JE5hD70HigMURBGED3yd_MOEkTxPzyagu2jX5QV72CnrBRKPSF0PpuHBHHTtvt_-HawplRoXz9kZRo9DLKVTQFX2AWkqAkJguyTOIO80DbgaFzhHr5Zt743zOcnvfiU1UdIifnqMUuHuFVQ1w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.99512,
+              40.75226
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "346.50",
+            "total": "401.11",
+            "variations": {
+              "average": {
+                "base": "346.50"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "346.50"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=FNNYCPSF&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 14 days prior to stay\nCity View, 1 King, 250sqft/23sqm, Wireless\ninternet, complimentary, Wired internet,",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "BWNYC152",
+          "chainCode": "BW",
+          "dupeId": "700190074",
+          "name": "Best Western Premier Herald Square",
+          "address": "50 W 36TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75036,
+          "longitude": -73.98526,
+          "rating": 4.3,
+          "user_ratings_total": 1513,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJFahlKqpZwokR6jIG71kYsYo/photos/AWn5SU7UiW3ytDtAuMFyKjUAIkDDKNmFC_Zslddz-dwVjiNv3ljl7QCgPE_FrRPFfarFVqyWDCmbH1Dz6SJ5F6dM_DkR7ojf2sJTFvUmYUfyQRJy2MuOzkm2HtHGZeO2V_d3b0_yzZ4YO7efBn_QuUDoRGeGrPmOFIISpEmCGrXGTnAKlNsVvvuKhHZIIASQbQ-AeqjTyldEr-lyNxtmSrSkpIKXU5WxNHLY4P0rQw0JrGkDGVp9bTRySysnoDx7o5cMftKJzp52AOdBYRILAT944PzgJr_2_1qNMPRCEEEbio97pQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFahlKqpZwokR6jIG71kYsYo/photos/AWn5SU4400wLnqFVRa6hHW8I-ScgK86NjqrYHve1GVw5PnTnHP-UdTZVAy4_5EKRIfm-j-RUaJX9TVkXX_pGGUT5sc4hI0c39PldOknM2eaPcwAScu5H2Z4FCaMs9hj9uue_cV-F6a_OwJVugAJRTyfWIpPQSDfuaOZmS5_DWTk5iiad9hNU_zG8JnAIR6hldmSdahYF1YTkDjoqYC3ciqs1cMIa5jZ7yH7x-xQ1W4bZF-jvGHmjvh0R5zigzs34OL6maGmhdYcnvwA7_xxzHn8DfS0KVLtXw8hHNyuztiuFgNyo3Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFahlKqpZwokR6jIG71kYsYo/photos/AWn5SU7duWqZoQZlikGIH0IxpJsgdmQUdnIvjsnVKiw6tNTDUqE0fM0D9Y639WFfQjAtaKQS2Dr-76HFCgJ9pimOVM722gAY8uLNjDSR0Kr4SojK90B7oN6sf7In0WrfA3N3mA4ni3Rnswp8InUhiysMAxymdjtz1MsmsikRxT_zx6xObjwaXGQpbutseez4psxr26_w7125GRjw2P6p_wRWe0wDOAN0gQmqmfBi4u1EyfPv6wcKXUcUYGiKVRUMwDGUfSjuY_9DI_luW0uV_3jpemzHvhctydXBQNjgmuS_OsYvKQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFahlKqpZwokR6jIG71kYsYo/photos/AWn5SU6kkW9VejW5CfrGUiz9VuVs8O5E_v622FcXHxxqvY2DERcmX-DqaAR5eSYJb5a3BMr55CI8yl0_INemGScZmzcPldNk1bx5g5tD9MuNsWQbAKhezG_cT5hIwSSmtuWaqI7EeX9hrLOsry3RGE6Zet4ibBGiyXqUcT4vzIBMk0rRpoTquVrnGliqmxXRfcjGBpC19gMGeQ75zIW7_ujQA_LlOf8sb9uO9C65CoylaD3enEt6I9Eqc9x3BxLPskiRKdXCdReCkYwyhVMk265oewPq1LtGLf4z1lqeDIZDOyszog/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJFahlKqpZwokR6jIG71kYsYo/photos/AWn5SU61wrXK3hoMCh5g4KI-TlmDvV_G5SUEppW42hEOD0F69o-6PMiH73YewspifS_-xxniehKdrBbZikrp_vpaN1HuoQvZZXI_c7C6jOOkBWriCcuI43e84ImVCNh0gJAG4AJTlrtc0j1zc6LxWyUXtYo0idVBP5g43kBxI9k04FE_C28RBEtHtz6EnNuSnp3FqFzN1b-nb30JojSBn3pFDt-SCrLZKA61R-0k7egGtHHrlyEFZ7ET7Rq_idLU7P-3aJLqaXHYDvSsEFp-_o8-NlBkowuak6gDW0TxbF_x4NIxUA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98526,
+              40.75036
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "325.59",
+            "total": "377.11",
+            "variations": {
+              "average": {
+                "base": "325.59"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "325.59"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=BWNYC152&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "ADVANCE PURCHASE\n1 KING BED,NSMK,EXECUT,PILLOW,37LCD\nSTANDARD",
+            "type": "A1K",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "FNNYCTMF",
+          "chainCode": "FN",
+          "dupeId": "700147605",
+          "name": "Fairfield Inn and Suites by Marriott New York Manhattan/Fifth Avenue",
+          "address": "21 WEST 37TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75106,
+          "longitude": -73.98448,
+          "rating": 3.8,
+          "user_ratings_total": 697,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJu7vQO6pZwokR0H_dAkHRyXQ/photos/AWn5SU4yEXRoLkjnVZD8YSECqao-f0yNRoEYEcnXLAc4xm-j9ab7O01WsuyZJC2j2AUGPOWTfUCizF5fjIylNjmU94C9RMh-LTZJiePW2Xi1P8PTSq6nGFotsPSJRxD6CHmShE73usaZZCdWa9nyIQYzQkVJLebskTKqdWIH_RyzJPmGRepcxrSkdpatVOjQv-PzskW39L9asfzq62uk9YH1xGBs-RKDECnrcdGN91q3zmd4jgm84kBfFwO8KBR_Wk5Zb4tgauLDzrJZ8Ihb_thLyDwNoRlaHLUb3QyAlIYQvpT5zw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJu7vQO6pZwokR0H_dAkHRyXQ/photos/AWn5SU5eWmkpYpRii0rTzoAYHFM64HVqoPhF126OItDDI2HhoSh6XCt_RO_dnaSAaf6uTEErnwdTchni0NPmy7bvKD0DvJiDnAf-c3isICYzdlCpzrhlIvgWyLAs9K6sIoutZJdRv5Lr0TrYRp_4re2L7aax5VYPNJMveNdoNmvqvlfHZMP-cV939yBfU3OlMwd7EQX654p2JmGHUILmMY_TgwN2zebzq5P-TrYk1tT3qfPjc2qL3IGds46qup9etbOZ1hHW54RBcGFX-cbiSurPSVo3hnbYpp4JI6L1cqPiNv-7yA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJu7vQO6pZwokR0H_dAkHRyXQ/photos/AWn5SU4l1SB6S1b0gBZ9_4RVj6U6PGVSIpw2BqSguJKsnXLyXPd1DVQoLfEe47KSRN_wgflSSslmCQ3mpl-uuT3TfF7awRXzMxJ0w-gLoEGh65jOVJtoVFlIc5lmrTMg64QAtRHNLDTXsfNEDPYarALLALURRn5_vuHR4eNuStZYE3wN_5B3gn1NQTK8vlkEWzzySQCoMjKzvjGlSaku5qr-CkZZM6AjTIxMfiOdAO1VeU1MyP_h3FgoKVp4Od8u9vKJwf4WS3c1Dta5PgG1pr2Cq5VAEaUuNniZhhj1wW23kZZslw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJu7vQO6pZwokR0H_dAkHRyXQ/photos/AWn5SU5vVjZ-0xu-iE5udUsWgG7KftxLZYMvMrlhaXEi9fM4paa31NTBp158dIsDzaGPGpMGsFdky_sRRM5C-MKvyW7Lz6QUQvFQZxXiv-3ffbCHkd_fQ6hTrbcB3MUanCvfbVmjhGsHGNM0qBDRZte4ZeuwpLjIl3DFvLY2Xc--vFrMAAjw7OMi5x3vJn7K5fOftWRfu6_QtttnHeR-waqYMcwDdm-ajNPdT3QZStSfLotbyAD-TrEv66XkbXaVk3P6iHyM9H6NBvRwrLBm3TODpWyQcfjLRYqps9s1FsAST3TvdA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJu7vQO6pZwokR0H_dAkHRyXQ/photos/AWn5SU7zu1B0NbaDNZQC5kl9fscFMS_2Z3lvv4hG6FcoRBcetzg-EjIZ3zTl2LHbyU0mV60Mdi-ZEMmPFSeZwCmFX73rbWdviqts8DRIygvGdQ6uJZomKrsE3dJkFBxD6clswI4FaFi5v63dksHu9qCQl-DvbDt-1VcZLkXxHCSaM3lE9TIXxTrlEfN782JKpF7M9eJavE75oia5NobBvK_URnnme_AOrWL9aGkrcU96AYVPT9SekCRd5zvgxWLlZkTyErL1vJyb_2V7VysW3Rcv37yuqYfDL_nFdwkybPm672tJUA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98448,
+              40.75106
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "296.10",
+            "total": "343.27",
+            "variations": {
+              "average": {
+                "base": "296.10"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "296.10"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=FNNYCTMF&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\n1 King, Wireless internet, complimentary,\nWired internet, complimentary, Coffee/tea",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "XVNYCSMS",
+          "chainCode": "XV",
+          "dupeId": "700190085",
+          "name": "SpringHill Suites New York Midtown Manhattan Fifth Avenue",
+          "address": "25 WEST 37TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75119,
+          "longitude": -73.9846,
+          "rating": 4.2,
+          "user_ratings_total": 1010,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ79ykPapZwokRwqBwCrWPPWw/photos/AWn5SU5MEIo7fzWKTCjurwMV37yH6EEllhDsMsoTOaxYWZT2uIPLTEMa8exbC4_wjIiMjgRK5KZT-y5ADbuCJLCAM5l-neFz3zcKlDaHcbCai4xXTbDpx23tdN3G0CrHddEIvli6NhzkTJyORjRpcgY1L1-GckTQeGhJ9IqDkSFY1CYvdsAAkipCyy3WRxZX-A3Gw7r3KmzqiksQ4OSjAZy9leLAz0geRTSmWbi9CXNRQBX5-QeGSzyvbbYVrKJdAlxDrGMhbwncRdBcNjh5YPp4WJxkJQzXP6s4fvH1De7yv9VLPw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ79ykPapZwokRwqBwCrWPPWw/photos/AWn5SU66RthsghmEajjMSIqE8vPuPmMnAWn4Fbc-8NcjUVlNqffPrHr2XlB3ulbMHjUMrYFF8-Id7RRrYW0Xmaavqz9MDXGmEgBiCQ6Bj_XGVgakj32S8CjmC3s7mM6-LSg5TSLuOnxxfJMsCIgVTU2x-KcyhaMvPiYP4q2H0zTxSUT_WTp7LmeXA6_jHAc5OTv7x8-tgPQk995TzQIZFtPgVT200Ej49zOb3dR852DQgV6AhsNtREGeQ8-dmj8Dt7a_Sbj0WwR4D7g-BMtiAK8-XEk3mlXtfAew5u95KhzywZ5g_UDx9ouTyiS5R13glUHl1i35miHqUfNlTPQrOcMpfJu-yXTsaujmIBgx_APLmqhdbu_9sfTH2739tJA2eRMgrFNxDhAMFd6rY2SlzlWoxbrEwARXye90DWdiTfhf5TcNsw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ79ykPapZwokRwqBwCrWPPWw/photos/AWn5SU7azrHY-i-i8IekxsKLvmYws4owV83-nxEWcu-K_zBlW0PiOsMAoe3FFv9XKfN7w8WMY4vg4wzWURroY7Tou0-D6bpEzFCrj_GfCkkk5zUXnmMwD-URq4x5_NeOwHR5VHBPUwNCHojLWnsA1TFuJRPnRBDQsubMP3mLFThi6iQLDLIyRzMd518BuvP_82UEUIa7Kp31UN0b-fCapMAD4Hf7VXfGQFsqw6ovtFedETgsduTUxw-JaGcsNKGnGaklLE8vtQWrnZnAqWy9vSXHYTpxcbrGS1rQxjk_1GEKZmMyUJjSmEAUbNxFNjVQ5gcav-SKp2-GrRUFNwAuuQpGw8T4ZwuH8UCKKGGKvnJZfIkB2fyDKjXgID3dtQbkwc77TrtzBWW0FeY2NYx7gehAO_dQDB7CZnozzq1Ig2DMJ5HnGxO7/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ79ykPapZwokRwqBwCrWPPWw/photos/AWn5SU6Natsp24s-AiZcYDUojaWPWsEMKlhCzP3pwrB6S_QvcQkqOLwH32Zt1GkukBbT9f5P_3qQbH9PdIG0R-ik2jQnq3vq_AdG4X8bN0h5fFC9iUvse2feA1QP2-I4_r9XeMY5tWPfY9PvfiQC0gW3VZAiDC4vQ-fLRf-ie-0S1d-DCaXKNHoL6jRC_7kmNUPgZdeKy6_yFzdpkOe6Ui5oayV8CkxIT59o7eteN4VK4y_T0jM2fH3zkZcsSnPgXjFzH7kCGPAZOmtmqa2JFyG42OSVPUSRdaswFHs01KarjevH9g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ79ykPapZwokRwqBwCrWPPWw/photos/AWn5SU4u6CZuwuEy3rW8QDJdyBSsnT2L31G6ISbLpxQ5ELW-MZ1_-v5P2qKFvXxk1VmX8_l36-KQP0hByWqIQiFZz8nex3wbaAx3o81ufb9E6EyjrorL-Qw1cX4bIee1ZZULVTMCXOlJussaeZUJ5UZ7b2C_3gSFaB0AqQmYvPN1UXsW_AtKC1jTSaiO2bN09LQL9yWqD5EH8DWZAXNylCW4Jdtcn07Xu49ZmCcs5eMHZVBdFfe1jZvsJew2c73HSTD34hgV1LsQAB2cU89LSPp-izBdWNlLGOtLYIQwE6mVUM6JayXtMv9lN5R7cOZrtACfxygZ5YI_kiNL7Sa_KfkyAIRmJTh-4QN89rlEvfcy4BwsrHOfukSUEivuuD4P9jsG3m8TeXScUDQaADb0k3rYVHXAbP68EejkbsZNIm6-bwsV0V-D/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.9846,
+              40.75119
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "370.00",
+            "total": "428.08",
+            "variations": {
+              "average": {
+                "base": "370.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "370.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=XVNYCSMS&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 1 day prior to stay\n1 King, Mini fridge, Microwave, 267sqft/24sqm,\nLiving/sitting area, Wireless internet,",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "HGNYC454",
+          "chainCode": "HG",
+          "dupeId": "700211707",
+          "name": "HOMEWOOD NEW YORK MANHATTAN TIMES SQUARE",
+          "address": "312 WEST 37TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75427,
+          "longitude": -73.99308,
+          "rating": 4.3,
+          "user_ratings_total": 3145,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ_6umC61ZwokRUfAD4mkkMIs/photos/AWn5SU50pZaPiAvtaw1bih2_78OxtpSoCXmcb2c-gg-24KgtsGQ5rBC6Em5ForhUyPln4_GXKiz9B4YhJQvtYGb9tfv_Bz3bYjKLnE7aIiRNkJFv3C1alZqQ4vU4HzaXPB6YTan3lnNphLpfjeYKn1lUNncLICcRkbGeBKiE1G7Qqp_CZDzT97v7gqeq59NdPBTi_Gx1ebjhvLdR8ibWqzYO-FwNnyhyWEYt_6clWDnkfbUXLUpeLj_2it9dADNDxZWP17i7NBZvXvCKqExtjI6EvL2qPj6ebf6vZzuj_0S1sFYHKQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ_6umC61ZwokRUfAD4mkkMIs/photos/AWn5SU5kJ02AexiHSe8IxPJ67JwTg046YNHpKQmIAiXUaRJYJfrR9idlqingCuFqd_SOQLwidy1OPhljJT-EMUP-34fphr3oTIZpEs8znW3rZYOV7FYm-WWmPMt_kNRtD-kbi3nf5oAsyjRZlO0w8g2WJUu85KzH5nFJJyI9Er_bNs9iJwxAP48JjZShMLjuqP_dm8ilkuRaofJ2RzusOrLQt0XoFJw0QlaZW77XjetIaRxva76pwKJYdjItUjPE2FDRLyduxpMjbH_x6aIfu-BAIyGrrS5Wjbf7odyW-SnKJdmNxA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ_6umC61ZwokRUfAD4mkkMIs/photos/AWn5SU708pDwjT-fXVYYisfwWQjVu6VC1qCUef85Hi-MCWfn331ClC2SxYWPsRe1prQpcifikLw6hBkIwewj4DHEaFbiJ4EnHc37FuvvGfbAXJPMeqL9jLmeV8ezyLOdJF5Ugsj0kGRXW8peNb9aXqy6_r8F2rJxMUSkKEO1tMZ7Mm7cM3sAvQKnPmhvBW4mWH7eixnoSrTsHaqJGWvej6G5F4lUK5nusJkGg5gaUyUwfzE7cpnI9UNbwSQZj9xNh77qOpsBDyoNRk9IIaEJXF6HOK_W7IIXlSP_fcqTlUItyMNSvg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ_6umC61ZwokRUfAD4mkkMIs/photos/AWn5SU44jRkKguliVHS-OGx_c5NB0eMvvJeiwtuMUmSytkiECLWPdj0Hf43DUD4TQ7jloMBN5UTDdQnfzoMtp75pSlG0AN6tOVvj-IKZ5A6idPYpVnKLDge1NOmtL8vNqkRMQatYs1Dm30xHjpIWIt8X8LCkwcK3lpW9HBd-jqyM9udGooEkUzmqknSgEH7WVe118MKvSdbVWPOkU-ILpEjeOk5PWZ6wYz1f-XI_1Lo1mtKD7tAdoWoSQfcikd0BDAoRD_qXyCdqm8gCGc8Q4ryR9zUmT-k2DiLQWxHTAAgEaxkCpg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ_6umC61ZwokRUfAD4mkkMIs/photos/AWn5SU6xXPySuqM5k9atIAzoEzroN4lrkLOzk0ikKMfi_uXQFIknuVMeCjefzI3kSxBNjAe51ccI_2AO36_aoL3WWniX69rhSIJ0PyKvIboDUppHRuZhsCiNfbRPTMrfbiDkENFwbMpqLdNtnewgl1e9OUReK1cAIUZBroDdrNoU3b8ETXAltVQFnUV7LXeQJJZnPKyJrmEpqcM28OQ1FTUDyB7RuXGKKzkANawZCOV-PLZutPZ8ABPeWUyvZGq2y2GrHB0Y-QUHzOr5d0bWxf_LRHgt2jvjM4C-nxjjifVWFybYlA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.99308,
+              40.75427
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "506.66",
+            "total": "586.94",
+            "variations": {
+              "average": {
+                "base": "506.66"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "506.66"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": "2025-12-18T23:59:00-05:00",
+                "amount": "506.66",
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "guarantee",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=HGNYC454&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "RESTRICTED CXL\n1 KING BED EFFICIENCY STUDIO W/SOFA NONSMKING\nCOMP WI-FI-DAILY HOT BRKFST\n295 SQ FT BDRM-SEATING-FULL KITCHEN-SOFABED",
+            "type": "A00",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STUDIO"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "RCNYCRIR",
+          "chainCode": "RC",
+          "dupeId": "700070983",
+          "name": "Residence Inn by Marriott New York Manhattan Times Square",
+          "address": "1033 AVENUE OF AMERICAS, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75274,
+          "longitude": -73.98563,
+          "rating": 4.2,
+          "user_ratings_total": 2950,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJUyVsVKpZwokRwyknPdvbprs/photos/AWn5SU694JdAX0ng-glxUbDBFsSt86aswB-b9W72KuCFJpHn8wNXt0xT2Pa2wHjtXi_1tZkWjG4S8W7tJn7jFxjINCCRC29FiRLoD72VuUpRC8qLELge9SI9qNM-5C4bPkgWiCXea98ULMOHZwVl0pLPtIFENez03qrwyNgnduY4WegvoMr3toys7WI2KqVqzLJKZP5gkDSGpXM_0i_A8-mEUXcBnchW5zdRzvqVJGX_ePICOLaujAEuADZrCTlhgkZK8sn0qto9a_MAhm0ZxUgDyURABdy9lVLPpaERoZwDgV74Rw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJUyVsVKpZwokRwyknPdvbprs/photos/AWn5SU7pvSkBY_z-4dIDFYUwjCUWlBxpSwzJKcq8m1sYYaXWJtM4yYKaQT0lSivNjiR-L_Vm_lH0GJq8kw4rCgdbnnrEUgT_Wem7h5vivMEAYfVcupcwE7-AOpJVTdjm9b8sS279rlcoSONXNS7K7YZ9LFlpr3FpfnmnoyMCQzvYd6RkJhEM3bZESz8rD3GY4zHFZNQKiu5HbSKczB-G7OyZoQqVxHrKf2nvM9Z7CQrors_85MiQ5oT8teHF2mon8QehWk5mLxp3MM_LgJkYf-vCYd8zdJfZP81nUiZqQ8n3IG_IZA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJUyVsVKpZwokRwyknPdvbprs/photos/AWn5SU5TZoz7XKxoKhnLXWjmkFbyp0x_skVP3lRg0H2uV9jNoIsrbabhi7RRkUXi0a0rypE47kauMGBy9hRmL3eS2uYtRyx_XTNagYBjpinXlVMJZKFDfKvHN7LMBP8n-BIhGUwlVcWgisw1xoGKBWiCSOjt9LLDxf923H7ZGjOB9Zigi0TMKH1iz5pnExd_2OSh0OZWpFgcDTAmzG6r4XtP8WnjEhIgsFlg8bwWAOYm-ZaeCDiBu-ILMRtp654JPHX9VxNIOosdrboKoxaXzF15lXWCyVrz6R2bqizjqRN7EgewGA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJUyVsVKpZwokRwyknPdvbprs/photos/AWn5SU6iDmGvvl66rYaLpqTo673ef07utf0U3algws-BkvePOMC8iLx1Xg8rdEke9LdSLi89ldBDL5I6mZSyYsAE0jYeCcsJFR4KMrK0nUtLtYzfUxxPgy01WKOEqGQ34x4V8_mKBXgPJZZZItEaayNRsF4WiSEn1YvYDpueb-CIYHIQBzXHLnzVsurmVZZ6nHWnG7EO-VKiyDym2iJz8G4Tj1TdkxChl0kjnsfqh8iyors_LQkcsxfABAuwGEDeCdBFitbgspFsJkp_35k2XqcTye0CaE0qsX1-uHVMwIl--uFU4g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJUyVsVKpZwokRwyknPdvbprs/photos/AWn5SU7FOmut6Jgf7klH84fY60g46kICXR-Na-afdL6_kp7JiMyHFscWS5pKDCsAfJrwXym2_IvYCvuOYhNS7RezmCh2PcjJ4ur5h8wtgNkxnWtwvArs083jka6D78gFGSpZr_Op7usLvMBuiuf6ux9A2b8XmWIsL070rz5FxdE_jWhjJnG-5IkCoXjuuXWCPmHhOicfcihXOn1IJFV_l58GIP4lDPpm7EvxLHYCRBVPlaF9dJKrTXSbJg76riRpWXXNrGmGIVpQjEVvGc-zEp6XeC55_bEvRgbdVux8VnL37TSZuQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98563,
+              40.75274
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "348.00",
+            "total": "404.84",
+            "variations": {
+              "average": {
+                "base": "348.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "348.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RCNYCRIR&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 7 days prior to stay\n1 Queen, Sofa bed, Microwave, 320sqft/29sqm,\nLiving/sitting area, Dining area, Wireless",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "QUEEN",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYNYCETC",
+          "chainCode": "CY",
+          "dupeId": "700188561",
+          "name": "Courtyard by Marriott New York Manhattan Times Square West",
+          "address": "307 W 37TH STREET, MANHATTAN, US",
+          "cityCode": "NYC",
+          "latitude": 40.75453,
+          "longitude": -73.99253,
+          "rating": 4.3,
+          "user_ratings_total": 1816,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJjZabD61ZwokRnRwUJ6aFHJo/photos/AWn5SU4nxCoMWFMhsPq2tj61Wq47n1pT2lh5YIpgyOjXCdECq516Tc81zv6ytKDg9qIRoB5hB0vwVkj2N5AcVLBXCU3lq3ifc_gaTvx4-QQLiGEcKCAP6x4b3D1gECZGbRkulVe1p-BY-VaZOYY8LHcRbh0AvUEBeUEz56vZvmw48GbbZOyPr2-rPvoiZgG9o0BysMa8hER7F11-XanTcZyOnCDg57QWrd1B-z9BhuYCBS0XiBnIN1FO5mKEo5miGn1pa47uIL3AQIEMEbOSbSXvrQrWjOemIKNlJDr9Xis6a9eu4Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJjZabD61ZwokRnRwUJ6aFHJo/photos/AWn5SU5oSLG-VyqVdebGV_2TA-65jfWEJZeZgPapJlntdJC_lA4Ady9BsmkqM0PaY3l0c1HnbBRRackuLRa04jpWqblHsplf9_MDsNPBRcpGLXIv8E2AJgezUBCIviYUbntyVI0PmtzVwRIFTrw46LPfLuZANW9cyJHDuOJbDo21SqY-xNBdVFZQKmAbRJiblONziyan-7mVerJEMXxUf7_dZ_fz7lh1LJ1M79pmALnP8FYVy8mJ9oYq5lY-9Jf1kjjYVBLtBLaiK-7HR-XiqQ2pNkgEpE2PR1VBPab7hxkraqQneQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJjZabD61ZwokRnRwUJ6aFHJo/photos/AWn5SU7n3Yc5EBAcxXVkJXsYXL2i4BxBV2Rtrot_AzGjKp9rVwwwTyO1q-ebPrDybP2CmlDWdhiafmPsYokt6Fbk6ldgjm6N47OPSuWVdVCojR3eIh4gUSOQ6fH0kwdkFwaX9-p-7SaWQYbhPDYrUCHvfWU540lqSt1p_otNd52qpseG5tEBiGc4Yf7QTFqOPf8QK6Y5RVltR25r-5Y-NkpzU3yFodxf3c9XvVbtWov1RyPwRQ87Im6W03uOZ3QVRIeiLcL92IHImb1G9FwTfGf-76GmB0vzX6t73_CPbU6__pY6_g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJjZabD61ZwokRnRwUJ6aFHJo/photos/AWn5SU6teTN1QA8xInkcOOOXZ-Om-k8Hgy39EtEORrNanY2CwP3tpckyAmAODVVxEHgdUttJpKqGY0pU-Uzavo_fT-5UTAWnrUtBUwuojS_QaHeSQajHrImNFdfkXrNUpI3RAhueWrZPqQlOrhCahzEwzZbQHMzjZtXufw59Z5c00Jrxi4s6h_2mufX74KWJ9rXVoZT40U5f9w9ntIlyjTa-qPr0Llu-_9ar02-Qu1aBDm-IuiJWrx9RyFRV-sSzPHaEZwYK8aQ1V66ktHYwHq0IDt4CLhzxGfw4_OPNazs3JMLolg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJjZabD61ZwokRnRwUJ6aFHJo/photos/AWn5SU41i06XE69ygjt3yfwFfZbNJMetlpNCI6pMogn2t8p3HEje8sbHEzMoAf6vTL0Vb7uT4IhZMwPj6qK7LoPQoAsUXzLK78v3WtpJZZeA0bV5Z-Q_VevDYqSZCMsodUCswiBdeobaQx1F4KPrweLKbnSZuTikus_n7GgzS1yYYBrWhmXhpg5aQm4lPhFnxA0ppNdNyp4iy2bYay3Rn8Cwh8s2xLmj4woev5-19ooTjFajKGPeLk6fB5kbLXMT57Plb6pOx2U-kiN3rNVyCCx9BsGZQE1nkpM_KjICGyX52uUHrg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.99253,
+              40.75453
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "407.55",
+            "total": "471.16",
+            "variations": {
+              "average": {
+                "base": "407.55"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "407.55"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYNYCETC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 7 days prior to stay\n1 King, 280sqft/25sqm-320sqft/29sqm, Wireless\ninternet, complimentary, Wired internet,",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYNYCESC",
+          "chainCode": "CY",
+          "dupeId": "700101726",
+          "name": "Courtyard by Marriott New York Manhattan Fifth Avenue",
+          "address": "3 EAST 40TH ST, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75209,
+          "longitude": -73.98108,
+          "rating": 3.9,
+          "user_ratings_total": 1120,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJzT6g9gBZwokRXCp_-VjhYMk/photos/AWn5SU6CcKjZZYcDUM3R2-131IU38CoVH9Y_eNaqwyToLqUMEsvUNm-cj5N1q5QuS6iHwpjzU9tCrXh3jd0B_79icDBrebamm6TubakoSzz_alWYCRfoceZ-NvGTFvAO3-SJPSpOoMhvzzqcbjciaWUGTBsVkDa5zrWoKTZNLuWgsur5od8I8nHJL3wma0JOra4TICATl_B04HJ2Po40VoqajCWPySViFP95a0uhOiVE-b8W3yuyB76Tvv3nzVmZuXAzc8CSuZjPHChiOK5iWhk2XmkARi3Zgv9GM3_kzw5v_FxY7w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJzT6g9gBZwokRXCp_-VjhYMk/photos/AWn5SU7aMhwFrZQPeTpeIa5p8XINKXkC-UhON8wrJzCVgVlfK1A7MB3PZO2JXu8xj6y3luvVkiDamQILKWyrjj9Q8ax2PkQ1HT7e5T7uB8wrBzINcTb64AuXFLc5mUBIXJ1nvAM7AjDu0ZwPiTW_ninQ0Lqfz9pk2zjCgwp2pBqObG0GQV1I3c0vMG3o66g0_5EGNw5x6IdUsWRMXvNh3cx_3ClnZXmMo0M4sk71p31vcUHW5dhCfPxXvkAJYsq1fN1j3H7wVcTRlyj9SHIWA-mq0xX2o9FrQFUuLMUvqYSPtTBnig/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJzT6g9gBZwokRXCp_-VjhYMk/photos/AWn5SU6qb-9wMWhwwvGc8cVHlGSZKYeK21B4ycN1eC_LDN1cn6DtaPkq6KWo-IVMA_IbpCj1CB6mUiC1R_kFNalV_D_GX6BRAhoe3OlJB6F4r5uFNBVaENbaf55Rz1grNQd7AVEVvQ5YWqZAw7G4zXWiK6jmVi3W3Zlx8QIln-fZC5u3flsS1Xqpy3Hf1PB2OTpucZoFbBKdGnrYJsQqufEzSwuHGNMDbUSOhk5g7J0-ZWT85FbwzIQ1cfeuw1QzAosU4M2YzyQTYZVXyuEhbl0c-aTp4RTF3RfAeS0yOKhHvxMnixDrBkZpmfxPyPDHkH51O6f1FFjFHZ876IsxHfz8R2bw21XnTPXQTGMoLb1aD8dZxzn28OovHGgY7DuNeVgUFMIxRj8Ct6kqkI-0ZeqW-f-MCKv7yo7B2WGoBWzExikx0w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJzT6g9gBZwokRXCp_-VjhYMk/photos/AWn5SU5sD49fqkK33wge8uq831JVy7fEQqRodMjF-N1TibmoHFnOvTD3p9hNdhS0GxfqbDlZoIqeb8UaumB0nyZrT_-68hHotXIv_nYe1wzHSfVRtK-J_0LIYhUXWwJdGl57J0zQ5HeuLvZPauXWab5DZheI6t6MAR-Nu7sBEQB1jD1ZHhFk8aPX8LWr22ctFOtqU8PlohjH4vhWuYLenkLSi0Kub-3VIYz9RncT__UmHkuynSTEOdx09xROpdC1fQxi2IgydyQRjKIm5JoUoHJjUfjTJOsMs86KRHMk-tmHbuqWrPop3BSKvtQ4miW0bpy4gd0F3KGfqyiJY20Fh4eCrlOzrck2TvCoiRpgEN5cM8mAniUPWKUQdyWuCmQDmSgh6JNtEsPsoxNhUUsfOezml1KJMEDx6j_nrE4Cv9N6b6VFoQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJzT6g9gBZwokRXCp_-VjhYMk/photos/AWn5SU44xMYuM1ih86wgEB3GQTnU22VsyX5lxsJLnzc461Fz7LGMrSxCoKGq4S_A0kW1GEqSBpPv8C0WQVe2fvCgOd9eT5_Lma4O-wTQrqDZLyV80_zqnwUrBbT7aEWZti4PuRlzeIthMH5SXPEmsC4-DcFFk9XvXdZ0qjotVyGPUS4dFhNSF5TpBDDgD653wKav0INLhIoUyBmX9ThyIu9dLrAlxcI8wmIiSfzrPGFa_aFKoraVdAw9xTBlUy842FeKCeL5E9RddG4qokGmj9qGHpn1JtGb2XLh8U0dxDstNQ5GsXy9HwuveNqE4uK7NG7v7iKm0JTDYrN79RVwESwV2EY4sw46d2VDd6J5gDMmmf22iqOwWJaCmmv_eDPykK6syIMevnJiovSfbCHuTjMZiSPaiiuPRs8Nj8CoLJ-KgPvH2nRL/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98108,
+              40.75209
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "413.00",
+            "total": "477.42",
+            "variations": {
+              "average": {
+                "base": "413.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "413.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYNYCESC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 1 day prior to stay\n1 Queen, 145sqft/13sqm, Wireless internet,\ncomplimentary, Coffee/tea maker",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "QUEEN",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "CYNYCMDC",
+          "chainCode": "CY",
+          "dupeId": "700006362",
+          "name": "Courtyard by Marriott New York Manhattan Times Square",
+          "address": "114 W 40TH ST, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75386,
+          "longitude": -73.98578,
+          "rating": 4.1,
+          "user_ratings_total": 1556,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJo4xy46pZwokRJbPmZ5BUBS4/photos/AWn5SU6u54nggkQIdijz5NzfDsJxehX4WcdozaQ78v-SEiNnab1EkNLfJbg28CMLreIUg_uloRmy152FLZA2-Vvyp9rUsDRXqOVfvzPAJCYba65CuWynf42gSzoNFjtblINMg-kSwukzuP2ua9-TN22kSEAh45dFJNqTO303KQTSnPsUse0PClfido8yp-5lLxHcC55tAM9r4meygk9afVCTM1mH7-WTdw1BuK4qgrhAF5r2AW5LhuUcrRW4b4u77LaZWZaBbvbdzj7K9EDNWdCIu28tYpxPsGXjWmh4F0bsRQEcvA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJo4xy46pZwokRJbPmZ5BUBS4/photos/AWn5SU4oYPWykN7Uf4VlCppdpMc6Ini297wesfk_xfThNr918JfV5NIlGszQyKtpYN-vmOlYkEMHQp26maLFp9qE0h6ySSaEebSjYNnGKpybwUGBqv0lJz624xI1Wjcik3d1sh6FLtK6uVOYmo-n80Ez7WIT0gdYvg9sNHvzVocnhEe0MkdfxC3ZhprcNkt8pnhaLPOkMnQUggNxl1RhC7KI--KG0Cvbwe84_F_imH8oKjoJJiTmOL0tTjPzPaz3gSQXH23GZMVxYB9oIWQkVCENXVjArukG65El06O6Xcdj7LNWjQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJo4xy46pZwokRJbPmZ5BUBS4/photos/AWn5SU6g3LQLtmeGLhE0_ambJBWT0x1g6NyMZ2EnI3O1wTaQR6_aCFcX3VwgOeihrJy1BBV4f-FLrVWPw3B7YF1LPKcS8Rk73XtUyNBCWhsCuU4XcLBx1FHPUqUnWdzkRaEfqy40nIwSzRHydGV4K_sQs70tnmLFp8Cm4hF6cMQod7CiRx9TdYaDvXstcnFZUHmGt6oEvklHR27RoKuTPyNyMyqrOxwh_LJYxYL80xhYbHTAmWG8_uWg4Mg1zerN6-rNzOkNel0HN1Q-V8QyTTrIViuozp7UKua1AfLErDNt8OY21PqzNzKLJkf7Xkrgl18OP4guIrJ6xwhHWrW0POoIZcuhtdCpDD435SFGUUdy-o9r_3LsyUCuZCrzz6HpBeChr3L8HCYs5U3J_0kapD958aKlywPMWj1NOG6wbOc0w335rw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJo4xy46pZwokRJbPmZ5BUBS4/photos/AWn5SU49T-YP4Q08KWXRbyfN93P0fyUCVOleFnFtUOOIhIwkb0R2bU8BYEiHWg9DhE1KZDQc4WaWYJ3oLQhM4VWKZ1oCiJbobe21POB-k0elIEpfoIBwfWnQuKTh8YrvVyQfOXMg6vK77bKd2XquUGc_3kLnWq8FyJWPhXMwzZq5ixMvn7aFic4WkBT_GqvqPqpPvNlJdiQZeBhAp-oNGwq0fGmEPi_HOcdLy6oxtX9e0jNMSB9QQSs3hW0W8RGd74JwXBuNkUCIVxx7aFgLKri06_tA3UXtax5o7TK8RLbGlOGOqA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJo4xy46pZwokRJbPmZ5BUBS4/photos/AWn5SU622GNM6po5NZtP_QSmQ-aKaC4bgau1w8OjdO-UeYldB8EzNEuYHlFd43vxp1aPu00WvUfxRsWk8ENvEipEDcaiumrFjMK6XrU0y-1asb_aqQhNFCDXgTEnoQVbzngFgi8jUFzvBEbhxY93A79jIjvL9iiiQiYmQlOREdtAAXZXtJvYw-FjnJpI13xhEiueuq3t-60rAIjLs33B85k1WoCNsHUgsOmtRZCjMZQAN0WLUXYKcJXNqxd8_ASg925_cukC6IonY-ehFQdz2-R4mDLyJVzAqgUC3U39ohrKiA-nbw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98578,
+              40.75386
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "391.00",
+            "total": "452.18",
+            "variations": {
+              "average": {
+                "base": "391.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "391.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": 1,
+                "deadline": "2025-12-21T23:59:00-05:00",
+                "amount": "452.18",
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "guarantee",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=CYNYCMDC&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Breakfast for One, includes\n1 King, Mini fridge, 220sqft/20sqm, Wireless\ninternet, complimentary, Coffee/tea maker",
+            "type": "BKE",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WINYC789",
+          "chainCode": "WI",
+          "dupeId": "700013411",
+          "name": "The Westin New York Grand Central",
+          "address": "212 EAST 42ND STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75051,
+          "longitude": -73.97396,
+          "rating": 4.2,
+          "user_ratings_total": 4313,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJTQ_vCwNZwokRuxUsMUImL5M/photos/AWn5SU59WvzUzEn-IfIIvIyVDwgGkGWE9s9svbQ5GgmJAa8kzaKx85K12U9tIPl9RdvABLbkqG-cm9bTSicA_8IxXi2adQhsyR6qoopWBKgym1mNOMtK4AhfoTvXA00V3AQj-1O6PQnLeZLW2Z3Cz3cPtshBGs34flhCMXN4-g6QqiCs2l9rppY-Y5RXVJ9dkdZzTsi1Lla7ghU-osQAfE6EcAQmvSsvokf_DgfJvoaNNhss3VA8E1XYpi-Jm7Hs0sAAv3ffPHocnqvl0RcG8CbYxEMOOtVkVTqz57UNqjyd9u5r0w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJTQ_vCwNZwokRuxUsMUImL5M/photos/AWn5SU7zEdbvzYb_eamLPZvDgFg22Ml3r5QkmDE4lcrGdBhbUQFJFs54A38vB4Azn6_gSl8qgiq2MVW1cTQmidHTNBv_qkDO88HGp_Fqaicl8E1j0bi7uLJ_w4boCaTxrj94FOgP_h0Lt5U5T0pwR1LuQLjLq9B9_74-KHtiFQs3nBvmcEBgSOInTX35j0OtngXh3AFoJ-NLWZeWxkUfm55JOXp0RsXI99AWX62i3oy5ULqGA5mYpA-ensqjMXETGAylhAK7gICl7-CsFDoh3YmieE5xiOaBBc-amYUJ-DxU3_gfHg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJTQ_vCwNZwokRuxUsMUImL5M/photos/AWn5SU5ej4IQW31070xlLZC076dTEyLFj7RUMqMp8B_g9eCNh0CPmzqecw0NiEMgSiyNAqK3ccGCkyZ9l3XdiYol6K1T53x6RgHmYKAkPqmDpPFOcamlAWsb0kw9zzMbpJorWdBnWSeixAbd3DrtcXHJzf8uNqgRtsqBn6Ns8owOaHxM7iTmfuhKVXm4Bv0H365AV_-1WgWDUQvdm7D2oyIEXxcwiC7rCBWcvwyLvL625OgvonxByBPdx0wIk1nLRrjYSdsHD66MwqanJcDup9ZpQOa9dNQb1_-lih0FkDwvl247zvAwD4oETwggrLEOxnPxHbH0TFdpUk54yUgmTeqm8xs-dQwwEjPgRvKooTFzo82SBD1SvMczpCpcNpUE_5erlB2AE9pV1ueMKsFOWxNDKluKs0pHi9uKEgtB735lhuM/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJTQ_vCwNZwokRuxUsMUImL5M/photos/AWn5SU4Xfev6VfSzg0kcqvTpHawUGs739G1sj-Znb2aRxGzSccItSjz2EIa5zevORvFQBszftdWOVpIkxNdCe3BbcRHr_UfEJhqdaeIxpiqW3N0DoxatiKUPIl9uynsNeThnJHN4qfrmEUy5_oaTg6w5lVz0uBU1LUiMa6joOmwUexUfSpeSnTWWNb9n_eggnIyy3dnVpoqZKypNmic3iOYDFxIGnfjbIdX0ek8quaUOhFZ08LzGfwxutnSkCSj7cug4zb43tl_wJyfZNAo1Q3BQKLGcerCutjNTUv4UGlf4WhIFOQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJTQ_vCwNZwokRuxUsMUImL5M/photos/AWn5SU7PCUA4DMYVBFcBQysD0UgH74wxv4s6AN2TXTG9pQpLCs0f3a712zNB1NosNXAEAHaPl5Y_0Y7316VvILVyDB5g5-xJ25X4u18VJn8hoQyHEfwQfd66t1nGnwRAAzo53JkA0bhw8stkyJqopFZYx1gGnYDJReIUDfNUvV-DL0_mt08oo8iGtQhDhiw3j0hLyIy9jsuw0L3jJiiAXQY8ar40csqgMNB0GlQ48DgSqRkNypdW9WtybToM5EfWv7F5pbMycGb8zXSMkI-AZ-D4iVNLk36g82bX8KSaQ58n-vAgHg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.97396,
+              40.75051
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "389.00",
+            "total": "490.04",
+            "variations": {
+              "average": {
+                "base": "389.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "389.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WINYC789&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, Non-Cancellable, Non-Changeable\nTraditional King Room, 1 King, Living/sitting\narea, Wireless internet, for a fee,",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "SINYC713",
+          "chainCode": "SI",
+          "dupeId": "700128200",
+          "name": "FOUR POINTS MIDTOWN TIMES SQRE",
+          "address": "326 WEST 40TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75625,
+          "longitude": -73.99147,
+          "rating": 4.1,
+          "user_ratings_total": 2198,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJU_0s01JYwokRvTNwLmqQDEY/photos/AWn5SU7wJIxxDe_Ljm87oV-zVDvI2yB-oU8TQVcBm-MGujXmuIWMAvIxBNBCN5JB2U3C5K4GK1Y7dg9nynmsepf54g_EMLZhC5auFs9hM1X1xB25BvhO7zoFGekUf51DYhd2ma4fHYgQ6oO4NS9xOJIqQES02vOdD3KI9YeLCYk-3Ubp25GkxoTRPDSz4avJS_qehC7NRyjLuljv4gkR5e7psHy8BZLW3FWqjMMsavyLGHpXQW8euxnORFWS601_hjN-Rl0rlzjir8TmU3BDUsrGt7B20Ad8vzB4tqfJ1Rs1cxH7DQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJU_0s01JYwokRvTNwLmqQDEY/photos/AWn5SU473Sxm_URAxwSdNI2EPoCCbbT177sH_2A-B1yLBPS0MhgIm-mrI495lGE0eoSexZKgsyAS7DvuoWuCBn8Wf-wQjVnExAJK9FkYeNGiz1ZXXz6kwo9ILr5XfZ-uq_PfJotT4xZLuVOiQOiZWc6dujqMWToV3klI9hehCz4uEbbtyMm5-P259U7X6nmdLuET05aPUcaPng-SqmrBbyS4xBOax2zqb7Ka6gUtA12TyGc7jNyPOQ3qjPtpTD6ObC2VQO6adqEEFy4v1r2U1rdMlu2a38ZmEht5kZaNU3VjTDwW1RUe8QZwz_6fCh1_jod_ZuxfsbEun29XAOm9my0qUzFTzrj7glrs4sd8U1N-Db073pS9R_5AHfL-cjPmB_yAoAb2ihIdUMBFYzwXlzgm4_afDu0LnYPCzkFVIxJ5pyaF9iL_/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJU_0s01JYwokRvTNwLmqQDEY/photos/AWn5SU4iwGHAsupkrxTHLBG0OyF29xGbvthDfhr93OCY3cNBDB5FUI0Yxm6QG_xy3VhOi4N-Y88nDX0ld4OmdW8GYcxz25ERnN8KR_piTpIBJIRTRgRIBTDCA7l22B2-SRR9vnchrPO_cbidf4FVREWI4ZdCSzoWvlN2y1854qh9DQPeZCNQCZmISOMtGNt3LevUOk7DpFEbP-ntU59nnbQ-by3DvNlMqwNk1VxCgIYql-yYEN2dne_hvG8PEOm9ABNacP8P_Paux1VkPmVRDIEHcBFOP1aMpJVQfV-RVG9iLkAY5g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJU_0s01JYwokRvTNwLmqQDEY/photos/AWn5SU5WTDWlEPsGHlb5cvU8j9yr3vXUFvg7BI3i5syEWf6bTFdg3g4Au-qH2BDL0deek55f1hZEaYwkrmNH1dzWN_8tQUhPN6gfSJRWSzfAV5eOkFDo3ETpgIZuu8kSP7sBZbXkPggZ7JI9IgISqa0XJb2z1hPfKo_ou0odqWI2kEMFQ0YIoq-z6EkNNTKnpbIfurOvS2fLbwsWpz2CQxMavjndxrl9n2Vg_orZ78xfn9FCE2PqWUvM1aRkUT3JHnDcfasBPw1WurMBoGEKe7FyIhXxOpCWHuxemksewBL0Q9Uyxw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJU_0s01JYwokRvTNwLmqQDEY/photos/AWn5SU4AiDYi4bd3d39kJp-cWolGc6L8gukvZwCgtiI8DZ5n5RykOYbMZQjay2wwqN-y1jP-0-AsGwcJ5kEpMmhQ2aeYR11fAmtNlU5dkq9wOyUhMZAcEv6nKYFQYDsGQEl3rYM-waasybokD15UVpl3X6_RuDvBH9yl8koIqvK5O_XlgpF-L08KMstrAXZ0ZDP3lcLSJB1cX03UzA3mezk2asDYkOLMx8QVPj0iFg3w5Q5CDpHFaq9DIS8rPJCHIRL6QVJeT7f3JbbDlgKvy75wntzVBWMjq5jebJ6wI0ll6s5cRA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.99147,
+              40.75625
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "322.15",
+            "total": "373.18",
+            "variations": {
+              "average": {
+                "base": "322.15"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "322.15"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=SINYC713&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nStandard King, 1 King, 220sqft/20sqm,\nLiving/sitting area, Wireless internet,",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": null,
+              "beds": null,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WINYC380",
+          "chainCode": "WI",
+          "dupeId": "700018234",
+          "name": "The Westin New York at Times Square",
+          "address": "270 WEST 43RD STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.7575,
+          "longitude": -73.9894,
+          "rating": 4.2,
+          "user_ratings_total": 5625,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJheoaY1NYwokRpkXrShShXe8/photos/AWn5SU56gjXpjkCmXZPaRHlXsi-uzxP90rCaUauzr6_FKnh2ioIItHXuEGOMko5-2csQbu0sGeDyiKjv-K9RjlBLkdKjZCdmzL74u6Fepw9lq8XktwfDzcNTQVZma-UJu1AmgnO-mGDnQvDgmy14KRUtCZFJg_Q6bOjHU35vV8Qzb5IwnkXm9Q3yJ_DJe7DaDcLNzdmLzLfLp8m9_iQHMor7APdjZuf_ELjQeRwesHGRT2yZUHwdyEb9qFpjc8OOd9bj8N9BfZW3iK7PnbbqCItu9zG9yrVtPV-8gVM0j9Zy3PaQCQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJheoaY1NYwokRpkXrShShXe8/photos/AWn5SU4sB--giJ6Yi1om-irq4bu9IgIGcV79jkTjzvHH0D7k3Rc5eremmCvFTmFed8cOKmX4eQKZsflm5hGIWc-qSzhF5QASBlkHqEvcGOgxiYwlZMyV_xxrSyM2B9R5PcXaFcRvVrCxyjatfaqkXv9LoUOc_lQkMcQ2sU9M5t67_4HVVPz6Byj6gLMxwUH9rHBh_m64E_27OcDN-xn_VVXjAlovtI5i9MUWAXgth6FzMEsus-pg1ZRvNFej8e_qnVqgrNp-f8PDcksfpzC8hXs_mC9g0ukm0BcNFFISSw5eT20kew/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJheoaY1NYwokRpkXrShShXe8/photos/AWn5SU6K6FuBVcJtA82pwOBJyR4A4dDC8ugwVyAnKBuv2vZ_9m46eQknHox63WaWQ-kvLJ84JDzdghutykpQQhTBFziOWQKrC4ZDS0ccBZaBoSZDqiIiEaQ0auzPdK605UhcxGDwWnh5fn2fPNST01H0u-TnX_DNOVvV4V8BM9J7nfb2KgDzfQ59Rhx2jDvbxSAc7-d5Ijp9kQh4-d67hLXypHL0IvFWZc74sYLGJ3Nuj4AXBOPfPBQeHdg7Ic5BPDTDhCLrysgzWrUFCCS7RtdetsVRptWTJfV5RC7NF7uUVaprWQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJheoaY1NYwokRpkXrShShXe8/photos/AWn5SU4SvQPP3tRfisVMgi618Vjvm8d6G6PonKOUDIStPefwt0gwekPFM07npk-zQPOkre53Vzsy0v0muZde2lf1GKWRuxLGo5zGsdbLnVCkIiy68-vXR_9CuZr52t3kC8OvFAwcGCjwkYMPrUQN6DvqMnlzLsZxVF0TXEquPEGupMpB8lTpoqA97zsVbaS4r7itWd33zsJc03rXs1p2uBpmsM9gp7TvGV-lePfYDqUn8p2F7Gu6km5RSIKke1dlm7juICKBb0d-7lKUc6Nm_JpPuRN8ZgLomr8comkCG7vYOvXk2g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJheoaY1NYwokRpkXrShShXe8/photos/AWn5SU6ZcCrO6lAgc5SDTNa_OegtyFrEgkGicW5s9kQZ7KRtUQCZu6KCD6BF2hvHuXlwjOISoov8hi71B6jGeBt7kI8ZsB4XIOOcz2oGUhRJt6g_AWc9xz-sQl6QbZOeWyCb2KklWDqxfKhGv2WJylVWcZzbf-YT5Tq9Xc-zAPGdfx4dCeD3MUy2IzZgRo7eA2V0sBypkBGZkh9a8YomsbhN1VFCkBFjd-GKAR6O7ZCb3gSAGnX9YJ79s2YgcuQz3Bea5NaoAArZDZiHPi6Rf6eWH7_eH1oGIOqvA6PdKC03E3R_ow/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.9894,
+              40.7575
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "338.00",
+            "total": "437.26",
+            "variations": {
+              "average": {
+                "base": "338.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "338.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WINYC380&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nTraditional King, 1 King, 310sqft/28sqm,\nWireless internet, for a fee, Coffee/tea maker",
+            "type": "POA",
+            "typeEstimated": {
+              "bedType": null,
+              "beds": null,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "BRNYCRTB",
+          "chainCode": "BR",
+          "dupeId": "700011764",
+          "name": "Renaissance New York Times Square Hotel",
+          "address": "714 SEVENTH AVENUE, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75818,
+          "longitude": -73.98558,
+          "rating": 4.3,
+          "user_ratings_total": 1746,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ76A33VVYwokRL8jY1bRt1y8/photos/AWn5SU7ZA7LAwqOrE7tCb_FgWXDRTf6i1ZZxrJzE0rQmwU4ThYmhEpXn9QXX80ZmPTJHuP1ejWIrg6peNuwJ2araNrqf_ccAku8H-eoSb6IcXMJICt9nO_A4FCdmCMG9EtI-1sVQqMj6L4llzPEUcfbAIgV7iX0zEGMf2M1DKXYLk0mlN7hPcUnI5j6W4DK2pr9mXqa9dikUTHtOP1v0se-N9ygRySwd6EK5_W5W7iu9FDxlni_ZVCUAXOOeoLtNxmQwcP_StVeOr8GvCCqDXhTOzXmtIZ_Nm7L8wUUHA8KJmYmOKQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ76A33VVYwokRL8jY1bRt1y8/photos/AWn5SU7wiLxPqueV8HyJD09xrAZ1vkNN9Ux6IxeHAE2kR8MYCYRuOImbUp2G_AVfUSiQqaq1MpT5f_wtnykPw44wxodIbEsY4TetZgM0YJLNP6Z5tYasaS8agR8vrkqj6jz3vkWGOZa26pAcvIzJqilKdXJNE9czMjXFaTslZY2I-vZxVcrn8EjIXMRC1O-mz43cM4P95qx-XUDu_LUFS_yJyJ2gxuZTfjLU1EfaPbrUpe9e4iNIU31HKMyrO8vM4IBokLdxwRPtaOKeJ1oMvmSfA4U2q9LKTPVU33dumIsBWNpiVQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ76A33VVYwokRL8jY1bRt1y8/photos/AWn5SU6NqkOuqrg-Ajze1RpCHr7js82aZYCGLfhrW8h3BNiDa6P-kvLafisCNBUCx9p8L_OBnPErMtzsTkO-h4waXFOO7jquyady6bwHCZRZuov9FlOMvZM9whuc2KVMg3zmwAaFXUJOOO_JuEW52KkH5GGSkQNpvgSjlqIbrOb9WFPc_tiwxtEHB0LUkodr7LpcP_vyN9Orq8uMGjEpbOExJRaV18HN50qLu_smCEGU09red0HMoV96M5S6_j3Z88SrLHacIyfla8koy3TDw33bttFlbU3pTBib6qq9GtBh5tuGBw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ76A33VVYwokRL8jY1bRt1y8/photos/AWn5SU7giFFu3pzqY3VaRTRNP2tko7kJuPhzObTRW82TMWa0qxtGMy49sm-IU87fIFMIEo_mRzQfvwQwWh8nBwtesN3eHmbIrGu_bn9Si-zcwFWHNb06WU9_EBRoEyuD0MkzAts0LCVkDDCYQZ_TWJ0uXak9Bl_pGSkCaJ6JhbZurJkuqiYtK-cTCnvR43EMDjIPuIHF4SdxTYpxEjAbhZ-JcZTiViAqnIHECk2cVeRPFwSf8pKE5D7waemO9XhhXVVC8_D7SsK92e5LM75ED4tCFUsLtig1uXl94NMYDuTKatO21g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ76A33VVYwokRL8jY1bRt1y8/photos/AWn5SU4OOSgW9BGIxQML04Kth_ufFKib1P29v3JWRgFBCm0x6v9WTYiTVv1f8qHPVX4CSBmPUFLUPkj1Dpf5dygNq_2gb9SCC1t-il92nzyds6JslnBnrOCkAM5sZqpSBnch_fGElIqT9mVNjAXZ58B6Gr3SiXTywlOe20VdKCXD8y1F6jtNJ8Sm0KTVyKuGgUPJk0QFPHuXyJIxZlNZnlWIBWtnMShKaJsUJR8q9T9QpU5LuOye2HDx5n1vajNRxRd592g-8bPhded_kvYzm3howoqD7Y4w4ReLNOJbVOIZyU_1UA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98558,
+              40.75818
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "479.00",
+            "total": "553.16",
+            "variations": {
+              "average": {
+                "base": "479.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "479.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": 1,
+                "deadline": "2025-12-21T23:59:00-05:00",
+                "amount": "553.16",
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "guarantee",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=BRNYCRTB&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Flexible Rate, WiFi\nKing Guest Room, 1 King, Mini fridge,\n330sqft/30sqm, Wireless internet, for a fee,",
+            "type": "EVN",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": "STANDARD_ROOM"
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "MCNYCMQM",
+          "chainCode": "MC",
+          "dupeId": "700009925",
+          "name": "New York Marriott Marquis",
+          "address": "1535 BROADWAY, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75828,
+          "longitude": -73.9856,
+          "rating": 4.4,
+          "user_ratings_total": 15640,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJiVXoAFVYwokREqPijh-d8xg/photos/AWn5SU4ryLB9yZ8BieGJ4I3ALcntJ54706FImO3IdU4VMp-g52eihfKbxti5-tg_6_hYYFgUVJpY-mmUKDbjqsMGRYQiZ7lextY9w5x5E4RicrtzUtOhyh864VxYzpBniqqb32heUbZ01lmezmcLrYq9pmaLkr3jzI_zvkq-gjuxncBWg5oUvOoxP3C2X-0ho11ndjpXSOAGmbHMHYw5acf7dtq7T_0_tDa8wGZlT7r8wqy4asD4AWzSl1RAd7VVGvkxLkMntaZ2_s9vbMulFa8rzWqCBcoVx40lQXfEN3ZGHfdAOA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJiVXoAFVYwokREqPijh-d8xg/photos/AWn5SU6HxOfInioB01-US2nv1ayNST5I8HG3scWl7tvvQLeD3eTiMLY2izGKHNw4HMwoFXPnChVlQyWvNpSBj1i8GH9N9O-Xd7SUFh8AOopZCtGYGfdXorCzvErtNJaZPrz0zRolW8QPPHbXiGKnJ9iI6TpyWWORq9lXJUbedZ96zyUkgEyPYrAC-2XuM7pErIjJ2jyDl5x39KNco3eGakRGKSS2EYQCep60xqPcuUOn0SEagYT2OQJg8I6coufV8WK0F2sad9ZXRVnkv2-zhFFCafW-PfJFFCGsFaW8YjTfDujO39K_h9bUXoxVeV-d-6s3oOwmt80u005xY87VxDVPoQ6nLyxn_Q8hoCiuSMDWqqqepEMva7YX8v0Ew_9Hkoy5OJ-EmMn8CnAR3tPsFeKmY7gBDkIu3fev1sSqz0HKekAPnUjc/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJiVXoAFVYwokREqPijh-d8xg/photos/AWn5SU7UhjGPSikcfQwuB1GyGeMbWIZeyESs_h3a0LfavmwCxdqCisoEP7sI93DrJ4vtyBhABEhSIw6KO2p2QI4gNF5u517Swwr7m687lUzKixs7JDwCX6g_bbL3ag46aMGkUcSGFg6bjphS7x0_Thlbao01hWDuofNhGLbGr69xschyZ1Ixp0vql2YTe0MSbEnKvW5KORKJaCk7jXpbRH1KZ0f7hPOXkPEGo0t_p5Z762-F5b7pr5k6MResaUJd41WduLo7FGFsrMGWzTt32O_bcKnEXOOKDuYtiHDNBoTTkIZWDcGNRgUdXCVL2y3YXYWeXbwRPqq15KHxBbRVcxLitidh0o_cP6y3NPgmFrRtXcXQyFgxUusZ958JauDkXlL4Yesedf8cPzPUM604Le2fzONhdZxzczH_1X7d78M-I5fDgFez/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJiVXoAFVYwokREqPijh-d8xg/photos/AWn5SU79LibkbT7I_r0WCVyqYrrH-0_QLNQm8OY4SnCVnHJn5N356sA6jDOC76ocDWgoS1q_Cijs3OYhi57nrtrdietoV0JeMWGDyXo8adEbo9XQaZpVhv5kjVhMWb_i4RfxdhrNlEgtLkSPhaE_obhhmhRC4ume_x7E8KVXJnzK25-KirIP6QRLRQJGZRZTbsh1CKPdK2ybtjPNf9vD-4I3ffQivHCF23jpFQMxV9VF1zpTlwXEUK9y46uzreksHlCQnLKWnjaYfQk8gzsOqGS0DJirCTTbP3kXkxg30IPBXExtnw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJiVXoAFVYwokREqPijh-d8xg/photos/AWn5SU7PYC5qEXoTlXJjyEpmrT7ODyFo9ia3sw2uZaA_-d8TPoro5c1DCHNg1IUqbBAbkQxwtNkYe-GrsuqWETOSSlkpcXbsvwN_73Kt4XrvA1JM1PXG-XEwQASeEPkcu7zLtEeUD523mYKcJIC_BIHxCMtSDpHPkSiRcvYrwgTYGZwGx4E945UI7V2zsf9UR_hIBXSIQhSj26ttc54ofZPbrWoS4_v47Z4kG9sLkXio3rIJLMVT747PJe5cDFNS4PVuPXg6y_q3SbTbJdTmpZa3X-SiM0gDsBnujf4phIQ5caqD2Q/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.9856,
+              40.75828
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "447.00",
+            "total": "562.34",
+            "variations": {
+              "average": {
+                "base": "447.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "447.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=MCNYCMQM&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\n1 King or 2 Double, 430sqft/39sqm, Coffee/tea\nmaker, 25in/64cm TV",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "DOUBLE",
+              "beds": 2,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "RCNYCHAR",
+          "chainCode": "RC",
+          "dupeId": "700008088",
+          "name": "Residence Inn by Marriott New York Manhattan Midtown East",
+          "address": "148 EAST 48TH STREET, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75502,
+          "longitude": -73.97286,
+          "rating": 4.4,
+          "user_ratings_total": 1353,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJ26JjQP1YwokRm5mHF_sVyCI/photos/AWn5SU550i8riqz2b5ZnFZGRoTkg0d0ifu3LEfxKm3pXRVOK7Tf9-skDgQgDrW-tse6RzRn8NQxo_oKwgzUrKVRYuSZjJXegXlN8cb8D1wVAsV4Sz_cDQPWjfBNo8XFs614FbHYjNFFZ4UMzLJD8R_k4AThHW46By8t8PQdclZoBLrcr3JBxRfAcf_vQFxRQKu16NSPhHzBNkJd9HotE2A6MgcRHbG7GqLeDsmbmI_m-QYBQYkZQjID9wmcC8Pp6U6of8n9wSDb_RonmuIY9fCMVBCZyQ_i9k2Uo15z6MvywLd5rkQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ26JjQP1YwokRm5mHF_sVyCI/photos/AWn5SU7gchxeErTksXp6FZH8Pnu6_CBlVMtPC7fZK9GeggDo1aUzQL0mf5lDetERIOoJm3PjCSK2EOf50EOh-rAhFmruSkyCF_4NT6slVWX-WGzNVA9ZX8ZLr5VPsR1zqDLirEGOcUQcKGpmb4KTsMo3KNGWLRmI_PpN1dRnEJaAPWXd6h9rHHf1yQ9YjhyXxxIh4LUJfXIZ62xFz_fAP65E0boIPxqCgh7gbReYxUM1F0YP2_Axg8s52gDt9iVn2AfprP1jdlfy-6eYvE2_HDNYLO0QORn22e6-gI2rC1ru9y_xjA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ26JjQP1YwokRm5mHF_sVyCI/photos/AWn5SU6v1p_hsDeC_CwU0MxtEiv8ibypfZ2Ph2SvYGuRVEKe05P5vOn5X1e3hyLUq3VNvBQl1jmcMTGx4XTBVDy9mZvL0WS_SvGmv6qz_nAqjFM90KtID0xDDLW71rQWPrNpvBfWuEzgq0fCfUQi3LKGSGlJRD3LYvZeXunRVv_izDJk72p0WRujFu7u0GK4vjy8IKrjY2ZgEdzZM_nLMdjVrh1MHSr-AChd8K6Uq_WSZL0ikOSKe3t1geFTDGCrUSoV0hkGG-18l900QH28rt5TXPtqu46V1IBZeRx3nDAEAShF0rnUiIhszmNmIWs0ASPhEvKshUC5iChWt7Pc0XwQXzZaV9dRTlf0sqLNFvGC_f5jgDrole-VwVWa6s4FOt4yTruChQFsCJ7U1nOPW3nBsOv8rLjqY0GNE-CzRXCaPOk/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ26JjQP1YwokRm5mHF_sVyCI/photos/AWn5SU5nahJIljsaC7pN7ERSQo4X0T_2QG9tuqVbyhjC1WQDu1gRlWfl-HLnW-zFBIrQZN1CuNDfZmm5CzRz2s_bfT-nayKHOipkEnTHZFEqPZ-TIcIPSVQ7PmvqOzDk07K9lQRCzpGDOn_9f5xIdeshTtyDm_IeSxMYq5bENOxUKNEJHREEmYpN8Vz6en4JaBKBl3TEcOn-fHjCnXniPS-ClfgrcQPFRE_ytQKhgPxh5iMssxjL3lj-pm38VpO9ZFuU97zdoisHhzTbB7tsp2RP0Lp3xHtoBty5HKvuEUAWW6K_zQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJ26JjQP1YwokRm5mHF_sVyCI/photos/AWn5SU5o6HEsxe7dty0ogjsGxzYB_kIi9DIrVU6Sq51GsoL_JcyqwiDAPpi-EX3erRFpWRylAzRUePL_TX9JDiPqwcVFFeLZokqHLTXqywJCErRSqoIQSOJpqxgxHnhi2uD6G2a62-VDxE98sFbQYpP6WPT0Ec_LLfabupQORVzlnhXPx_jlEw5vHsDxU3AzUuuCiG0isxzNlwoN9yTCP9Uffo4c953fIK3QyvUWTjxlLQzvwKATP1LlOIb6xSmMUAKHsJLcuY1AZBOvoT6SWVi_kdic8u4GjOoy_yMbG5x4TspsRg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.97286,
+              40.75502
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "589.00",
+            "total": "681.38",
+            "variations": {
+              "average": {
+                "base": "589.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "589.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=RCNYCHAR&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable, changes up to 7 days prior to stay\n1 King, Kitchenette, Microwave (full size),\n192sqft/17sqm-230sqft/21sqm, Wireless",
+            "type": "SM3",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "WHNYC234",
+          "chainCode": "WH",
+          "dupeId": "700041443",
+          "name": "W New York Times Square",
+          "address": "1567 BROADWAY, NEW YORK, US",
+          "cityCode": "NYC",
+          "latitude": 40.75927,
+          "longitude": -73.98513,
+          "rating": 4.2,
+          "user_ratings_total": 3558,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJfVrZy1VYwokRJ3yWvZD0IYU/photos/AWn5SU5Km-Rzg0J75wq-F9xilvALIohqCJAwZqlHmfM-wE-ywNIbDsRopkGEdh37saIUvKXXo2-lj99p_421GEaFyZ4Z2p8W1zOEXQJYEQM66HgNd6bOqdkyo9iecsjVwI1BUeNJE1CbwWC8I2mXLK75CZRGVEOCci0N1l45NvKtISxWKVqhLBtj-b82pJ0Vk0FoF-3AdVQ5lReG4RcTeswXs4bjF5YuXLBCo1CuuswqcbTkOidjJcyLQmKZavbTEwdTJgON_5bSZej9J7oY6qpoBrghFO0DAH_eJUq1KYMJv0tQNg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJfVrZy1VYwokRJ3yWvZD0IYU/photos/AWn5SU4ffHbzf0S8BKLgzjEX7iyBBvv2QJKIYKKshuwHc6LG0TFAOtStvIeVwOSflTgm33KikgXCMxiRcTom1ydLNkemsG_pVJYrBHSL2G-Gco_pNpwRb0wkMggO53osT7YoPUOxicylWfdetMibmkXU49eb4ihvjaETwGpILziz62zUqMNBw4cjddyIZ6KmgS5wmPfHvLFR5w29eTm10zZOwVxggNORwUbKRsIiEf5YTVrY_uvsrJxCBQ5BoLboG_pXcHMqjQXCLWYvdg_DZI6kkU3J47TH-aeYktzXmtn_WSQd-g/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJfVrZy1VYwokRJ3yWvZD0IYU/photos/AWn5SU4ffJQvwCUDkjPh3JoWBaBjwceMupzHJazFuIkWS_pVUNHQmxwENzPIvMXdotrmmilGq9TWEVPMl-A7iGGKdD2Nk_Cfs3K2tUH5KBxITj6hwVrR0TJ3RV4io_SDj6pvpLxMdALRt5-S5kwlVeoMedciOBoBiv98PU1tqId15QYeyTwNon5qkUqdcP_UR-ZCeP2Az0ZasMOcOUAJP_w9iccHHfqShC1hx-Pe4DciErOqcJTI8ne8I90OTDGjEzOfUF-MNfqR6VA56jzXE9hg_EsKwFAAoL03z41kBwNEzfwvZQ/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJfVrZy1VYwokRJ3yWvZD0IYU/photos/AWn5SU6GthEqPTgzXteB-jH-xNTPpNembgR3Wkohj4NyjHOMTan_Jmgkap7SaBgDrS_OUKJqtanNQErHlnDmRTX3EL1C2luJ26wutab3C-4QOpXictYhmOYqZOtspGJ1fnlmHF0SavLHETcEGnZ9lW3U-0B69ejg47mOCiSpJiRHtukYU_OKQjyVCdl4V5ot2V866z9BrSu12sIEWvcZU4kZiqtClMU1mJi7jiKMsgEKWwRRfCGGgGZ6L5vZSZBqvfZsHaQY2SDsiPQRv5J9NJzoZsbQZMAU8K4y5uaLGdfnE5LJ8w/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJfVrZy1VYwokRJ3yWvZD0IYU/photos/AWn5SU5RV5BPH8xoq6J4PtnR4oe6eMqCQ-sjtzX5bZxCq6GFGEWGFsPLz_Vogv15rJIloGKpe1gIKG9pqSWl24TTF-BGe5ivNHwe_PTXjt1LA2LvvZvzO5aVKZysGNOCSBzmEzLi1aSL8JKFGUasg8Ejkh0fl-Ufs1SXRzZOGNkSFcGuePqs6FO-rJmBmRLdIc2Buk2es7hZj4LdpKUTDiH_b9hCxKL_AailEpJsBQyOAe0kdS0T1xvMJDrgNnEmLK37u29TYjdKpP01LWMQoJ5IoHhGqlsCX0x-Fzznn_zu2-vDtw/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -73.98513,
+              40.75927
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "333.00",
+            "total": "431.52",
+            "variations": {
+              "average": {
+                "base": "333.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "333.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=WHNYC234&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, includes breakfast\nWonderful, Adults only, 1 King, 288sqft/26sqm,\nWireless internet, for a fee",
+            "type": "AP5",
+            "typeEstimated": {
+              "bedType": "KING",
+              "beds": 1,
+              "category": null
+            }
+          }
+        }
+      },
+      {
+        "hotel": {
+          "type": "hotel",
+          "hotelId": "SIEWRXAY",
+          "chainCode": "SI",
+          "dupeId": "700028244",
+          "name": "Sheraton Lincoln Harbor Hotel",
+          "address": "500 HARBOR BOULEVARD, WEEHAWKEN, US",
+          "cityCode": "EWR",
+          "latitude": 40.7593,
+          "longitude": -74.0239,
+          "rating": 4.1,
+          "user_ratings_total": 2723,
+          "photos": [
+            "https://places.googleapis.com/v1/places/ChIJVeY-etNZwokRz6rwWMvFSwE/photos/AWn5SU5sX5eE-CSjL9b10m3UM0J8TiBE6DELU6E9g7oUEjK2jFV-GkGfjJxSudpSj354khvQFgJmzTDxuLYYTjS0giyW-eovvXCbdkOC6HvmFG-PA2MGqrAEBye7dllSPu5Jq6XYNlHcTcPoehPveiCyDVJcqCooAg-URqlQV6AwL7-d94IRoKtvO1LeIVUJTb38cEI7ieE07JDvqAEHh-CEewg_9dU3fytTrZSxKPcoPWUo1JXQQ5ul_e8DBCjsH1Bavjh8KOjj_3AaDTgelvYGvbdYO41wPJWST4gImw8rSRG_YA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJVeY-etNZwokRz6rwWMvFSwE/photos/AWn5SU6yafCoYlZkkyBm8s7VXie-ja1zbPWUlqLqU8nxE_2Yepg3xZw6asjUeRhvvTa2efSdQsSK-n1e7VeqP470fPYsqxoswJ9PJ_xD9Iq5hhtjGdadQ7VyxtslMs2qMdC6n3MtO5QJ-_rhEgRCtcaHowIwxz082i-nntXOXnZx701PSD04hh1J51YjLd9l4VzU1XB7pkXOXDe9I3ms2-KRDIGqeTeRaqZcICytCdUZZ9bXsk7xjbmOFhWGmMazMmfTDfaVT_K_cHxgin6a8UDFANKDY_KzN3OWg0QCh9EHR8t-Tg/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJVeY-etNZwokRz6rwWMvFSwE/photos/AWn5SU5g6v7HMqQXjQoZvVXM8iXqtNJ33UHtkFBH4d5TiCZD52-wTES0rDHfRkkiz8XgU5yq7rcYpWiXllYMfs6Gtd9oTXo0hSoM5CjRYBfhF92c3NMtRXGSFb1XGugnabDoocerRz2-TpXuAItgEshKv7LfMueyyLMeQ4e-FHCEHnmhzl8Lg1c-knThV6V18hlowr3_z7Ge_iXYxt5EL7tDMo68McCLs-pilZCM_VAVcYrnGPYDv9N_GgAMjIsbP--l3qmaB8rcG6cPV23zOA8BV-hpw3kW5YshPfph9uWw5TZOAOPiEX2nVyaHPTpYsaDI4VnL6M20SQk8ikto3DBVi1S2vZbmiaRWWv7pDxc1MEhSV-IhHz1LcR3mVEODAY1odKt1V7Ubc3QGpVRflr4n8PkI2D6-4-MfpFsfU33a_20/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJVeY-etNZwokRz6rwWMvFSwE/photos/AWn5SU5Z4BYBz-Zya622zOGzBPslGN3bz16si-RAMBgARYNAiQq1HJhVa0HYSV104f60lGkAJiSbZApOk8MfCaZ2tJaiQ_37I1CsX8QjdE5jn0vbKov1B0luWqLiF3Zhev3rL6wEfd-vpGFakYeMj2kkeOCyk2Z_V3_kWnWaU6DFZijFtd1txmqe4P7xvM3umpkLhVxklu4ydIEtY-dUY0CwXAhzuoDjsmXRGZIQtnpDKiVz75kOmduk1JsD3HSRFleO1ndiqlYLwcgwZhSnSoN5t6nf4p5OOjUPQy8hkHla6Bpj62TjOUApOgGYCBJPo9USNVtVCjyw2qVNqCLc6bZe1IYXoHw5OjE2qeQ8VjE64snghvuRyq_JtSHhKMZcW4bkjHkqeswVLyQMpVNC2NYFbRfA1ad154wTHlJPxgSc478bPA/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM",
+            "https://places.googleapis.com/v1/places/ChIJVeY-etNZwokRz6rwWMvFSwE/photos/AWn5SU6lRiA3w0RjdxSs78SgaBBaOXj_84mKo6o210u6_Ka2B4yhJiJNDUElzForIEWsvW0KRHN2XK4dGO5GoHOtc-uQTad9Z73uqbN5njYbwua57do_88RYraWwJC2FPvUsovi5QlTj73-__gB0IZNjXVAIcsdP8TUdu5BRR4pTdaW2OWpgQgLf6epdZQkjc40SMsfKIKwIp9pyVAbCtDDqV49HHmw-2Z3Dx3C0mWwLm2Uy17_67RUOhVyuSoucRPKjc59AQiJhNglN-pbHK_ERN7DoLUZOHcxXkzEZNfVrpWWUey8Ce-FrcA14KD3K3MuldJfkH6KEIx17pYMP7Gw4f9x9-oo6YteP7qYIi7YwWEARMbrmEi5iRIyFQcryBn3pPOet2iAOnx8IkwHy4c_PFOY0iPSNRIdIkviihPruQVCUE6y0/media?maxWidthPx=800&maxHeightPx=600&key=AIzaSyDhLlQKEnz8qq4QCGD67qeeW9Z8lN1OLRM"
+          ],
+          "amenities": [],
+          "services": [],
+          "features": [],
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -74.0239,
+              40.7593
+            ]
+          },
+          "price": {
+            "currency": "USD",
+            "base": "332.00",
+            "total": "380.56",
+            "variations": {
+              "average": {
+                "base": "332.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2025-12-24",
+                  "endDate": "2025-12-25",
+                  "base": "332.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "cancellations": [
+              {
+                "numberOfNights": null,
+                "deadline": null,
+                "amount": null,
+                "policyType": "CANCELLATION"
+              }
+            ],
+            "paymentType": "deposit",
+            "refundable": null
+          },
+          "self": "https://test.api.amadeus.com/v3/shopping/hotel-offers?hotelIds=SIEWRXAY&adults=1&checkInDate=2025-12-24&checkOutDate=2025-12-25",
+          "roomInformation": {
+            "description": "Prepay Non-refundable Non-changeable, prepay in full\nAccessible 1 Queen, 1 Queen, 385sqft/35sqm,\nLiving/sitting area, Wireless internet, for a",
+            "type": "AP7",
+            "typeEstimated": {
+              "bedType": "QUEEN",
+              "beds": 1,
+              "category": "ACCESSIBLE_ROOM"
+            }
+          }
+        }
+      }
+    ],
+    "warnings": [],
+    "created_at": null,
+    "expires_at": null,
+    "ttl_hours": 720
+  }

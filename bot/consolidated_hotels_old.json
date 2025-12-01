@@ -1,0 +1,162 @@
+{
+  "ALNYC647": {
+    "hotel_name": "Aloft Manhattan Downtown Financial District",
+    "hotel_id": "ALNYC647",
+    "situated_near_hudson_river": true,
+    "justification": "Aloft Manhattan Downtown Financial District has a longitude of -74.00666, indicating it is close to the Hudson River on the Manhattan side."
+  },
+  "RCNYCRLR": {
+    "hotel_name": "Residence Inn by Marriott NY Downtown Manhattan World Trade Center Area",
+    "hotel_id": "RCNYCRLR",
+    "situated_near_hudson_river": true,
+    "justification": "Residence Inn by Marriott NY Downtown Manhattan World Trade Center Area has a longitude of -74.00981, indicating it is close to the Hudson River on the Manhattan side."
+  },
+  "FNNYCLMF": {
+    "hotel_name": "Fairfield Inn by Marriott New York Manhattan Financial District",
+    "hotel_id": "FNNYCLMF",
+    "situated_near_hudson_river": true,
+    "justification": "Fairfield Inn by Marriott New York Manhattan Financial District has a longitude of -74.00502, indicating it is close to the Hudson River on the Manhattan side."
+  },
+  "SINYC052": {
+    "hotel_name": "Sheraton Tribeca New York Hotel",
+    "hotel_id": "SINYC052",
+    "situated_near_hudson_river": true,
+    "justification": "Sheraton Tribeca New York Hotel has a longitude of -74.00395, indicating it is close to the Hudson River on the Manhattan side."
+  },
+  "FNNYCFMF": {
+    "hotel_name": "Fairfield Inn and Suites by Marriott New York Manhattan Downtown East",
+    "hotel_id": "FNNYCFMF"
+  },
+  "MCNYCWSM": {
+    "hotel_name": "New York Marriott Downtown",
+    "hotel_id": "MCNYCWSM",
+    "situated_near_hudson_river": true,
+    "justification": "New York Marriott Downtown has a longitude of -74.01468, indicating it is very close to the Hudson River on the Manhattan side."
+  },
+  "CYNYCMTC": {
+    "hotel_name": "Courtyard by Marriott New York Manhattan SoHo",
+    "hotel_id": "CYNYCMTC",
+    "situated_near_hudson_river": true,
+    "justification": "Courtyard by Marriott New York Manhattan SoHo has a longitude of -74.00548, indicating it is close to the Hudson River on the Manhattan side."
+  },
+  "MCLGABKM": {
+    "hotel_name": "New York Marriott at the Brooklyn Bridge",
+    "hotel_id": "MCLGABKM"
+  },
+  "WHNYC299": {
+    "hotel_name": "W New York Union Square",
+    "hotel_id": "WHNYC299"
+  },
+  "ALNYC192": {
+    "hotel_name": "Aloft New York Brooklyn",
+    "hotel_id": "ALNYC192"
+  },
+  "SINYC727": {
+    "hotel_name": "Sheraton Brooklyn New York Hotel",
+    "hotel_id": "SINYC727"
+  },
+  "WIEWR049": {
+    "hotel_name": "The Westin Jersey City Newport",
+    "hotel_id": "WIEWR049",
+    "situated_near_hudson_river": true,
+    "justification": "The Westin Jersey City Newport is located in Jersey City, which is on the west bank of the Hudson River."
+  },
+  "CYEWRNWC": {
+    "hotel_name": "Courtyard by Marriott Jersey City Newport",
+    "hotel_id": "CYEWRNWC",
+    "situated_near_hudson_river": true,
+    "justification": "Courtyard by Marriott Jersey City Newport is located in Jersey City, which is on the west bank of the Hudson River."
+  },
+  "WHEWR785": {
+    "hotel_name": "W Hoboken",
+    "hotel_id": "WHEWR785",
+    "situated_near_hudson_river": true,
+    "justification": "W Hoboken is located in Hoboken, which is on the west bank of the Hudson River."
+  },
+  "FNNYCTWF": {
+    "hotel_name": "Fairfield Inn and Suites by Marriott New York Manhattan Chelsea",
+    "hotel_id": "FNNYCTWF"
+  },
+  "FNNYCBFF": {
+    "hotel_name": "Fairfield Inn and Suites by Marriott New York Brooklyn",
+    "hotel_id": "FNNYCBFF"
+  },
+  "CYNYCCEC": {
+    "hotel_name": "Courtyard by Marriott New York Manhattan Chelsea",
+    "hotel_id": "CYNYCCEC"
+  },
+  "FNNYCPSF": {
+    "hotel_name": "Fairfield Inn and Suites by Marriott NY Midtown Manhattan Penn Station",
+    "hotel_id": "FNNYCPSF"
+  },
+  "BWNYC152": {
+    "hotel_name": "Best Western Premier Herald Square",
+    "hotel_id": "BWNYC152"
+  },
+  "FNNYCTMF": {
+    "hotel_name": "Fairfield Inn and Suites by Marriott New York Manhattan/Fifth Avenue",
+    "hotel_id": "FNNYCTMF"
+  },
+  "XVNYCSMS": {
+    "hotel_name": "SpringHill Suites New York Midtown Manhattan Fifth Avenue",
+    "hotel_id": "XVNYCSMS"
+  },
+  "HGNYC454": {
+    "hotel_name": "HOMEWOOD NEW YORK MANHATTAN TIMES SQUARE",
+    "hotel_id": "HGNYC454"
+  },
+  "RCNYCRIR": {
+    "hotel_name": "Residence Inn by Marriott New York Manhattan Times Square",
+    "hotel_id": "RCNYCRIR"
+  },
+  "CYNYCETC": {
+    "hotel_name": "Courtyard by Marriott New York Manhattan Times Square West",
+    "hotel_id": "CYNYCETC"
+  },
+  "CYNYCMDC": {
+    "hotel_name": "Courtyard by Marriott New York Manhattan Times Square",
+    "hotel_id": "CYNYCMDC",
+    "situated_near_subway_station": true,
+    "justification": "Within 0.5 miles of Fifth Avenue/53rd Street subway station"
+  },
+  "WINYC789": {
+    "hotel_name": "The Westin New York Grand Central",
+    "hotel_id": "WINYC789",
+    "situated_near_subway_station": true,
+    "justification": "Within 0.5 miles of Fifth Avenue/53rd Street subway station"
+  },
+  "SINYC713": {
+    "hotel_name": "FOUR POINTS MIDTOWN TIMES SQRE",
+    "hotel_id": "SINYC713"
+  },
+  "WINYC380": {
+    "hotel_name": "The Westin New York at Times Square",
+    "hotel_id": "WINYC380"
+  },
+  "BRNYCRTB": {
+    "hotel_name": "Renaissance New York Times Square Hotel",
+    "hotel_id": "BRNYCRTB",
+    "situated_near_subway_station": true,
+    "justification": "Within 0.5 miles of Fifth Avenue/53rd Street subway station"
+  },
+  "MCNYCMQM": {
+    "hotel_name": "New York Marriott Marquis",
+    "hotel_id": "MCNYCMQM"
+  },
+  "RCNYCHAR": {
+    "hotel_name": "Residence Inn by Marriott New York Manhattan Midtown East",
+    "hotel_id": "RCNYCHAR",
+    "situated_near_subway_station": true,
+    "justification": "Within 0.5 miles of Fifth Avenue/53rd Street subway station"
+  },
+  "WHNYC234": {
+    "hotel_name": "W New York Times Square",
+    "hotel_id": "WHNYC234"
+  },
+  "SIEWRXAY": {
+    "hotel_name": "Sheraton Lincoln Harbor Hotel",
+    "hotel_id": "SIEWRXAY",
+    "situated_near_hudson_river": true,
+    "justification": "Sheraton Lincoln Harbor Hotel is located in Weehawken, which is on the west bank of the Hudson River."
+  }
+}
